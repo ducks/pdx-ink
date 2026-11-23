@@ -2,7 +2,7 @@
 
 abort "Demo installer requires PDX_DEMO=1 and development/test" unless ENV["PDX_DEMO"] == "1" && (Rails.env.development? || Rails.env.test?)
 root = File.expand_path("..", __dir__)
-theme = RemoteTheme.import_theme_from_directory(File.join(root, "theme"), theme_id: Theme.find_by(name: "PDX Ink")&.id)
+theme = RemoteTheme.import_theme_from_directory(root, theme_id: Theme.find_by(name: "PDX Ink")&.id)
 editorial = RemoteTheme.import_theme_from_directory(File.join(root, "components/pdx-editorial"), theme_id: Theme.find_by(name: "PDX Editorial")&.id)
 theme.add_relative_theme!(:child, editorial) unless theme.child_themes.exists?(editorial.id)
 theme.update!(color_scheme_id: ColorScheme.find_by!(name: "PDX Flash").id, dark_color_scheme_id: ColorScheme.find_by!(name: "PDX After Hours").id, user_selectable: true)

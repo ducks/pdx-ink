@@ -26,6 +26,13 @@ on this core in desktop/mobile light/dark modes.
 
 ## Install
 
+For the current theme, use **Admin > Appearance > Themes > Install > From a Git repository**
+with `https://github.com/ducks/pdx-ink` (branch `main`). The repository root contains
+`about.json`, as required by Discourse. The PDX Editorial component is a separate
+ZIP install; it is not installed automatically from this repository.
+
+### Previous September ZIP release
+
 1. In **Admin > Appearance > Themes**, install `dist/pdx-ink-20260911.zip` using
    **Install > From your device**.
 2. Install `dist/pdx-editorial-20260911.zip` the same way. Attach **PDX Editorial**
@@ -81,6 +88,6 @@ topics, member emails, or real member accounts are included.
 - [Implementation and API references](docs/IMPLEMENTATION.md)
 - [Asset and content provenance](docs/PROVENANCE.md)
 
-Theme source is in `theme/`; the standalone component is in
+Theme source is at the repository root; the standalone component is in
 `components/pdx-editorial/`. Build installable ZIPs with
 `bundle exec ruby scripts/package.rb` from an environment with `rubyzip`.
