@@ -116,10 +116,13 @@ button, input, select, textarea { border-color: var(--pdx-rule); font-family: va
   display: flex; align-items: flex-start; justify-content: space-between; gap: 2rem;
   strong { font: 600 2.8rem/1 var(--heading-font-family); }
   strong span { color: var(--tertiary); font: 1.8rem/1 var(--font-family); }
-  p { font: 400 0.95rem/1.5 var(--font-family); color: var(--pdx-muted); }
-  nav { display: grid; gap: 0.75rem; font-size: 0.9rem; }
+  p { margin: 0; font: 400 0.95rem/1.5 var(--font-family); color: var(--pdx-muted); }
+  nav { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 0.75rem 1.5rem; font-size: 0.9rem; }
   a { color: var(--pdx-muted); }
 }
+.pdx-footer__brand, .pdx-footer__info { display: grid; grid-template-rows: 2.8rem auto; align-items: start; row-gap: 1rem; }
+.pdx-footer__brand > strong, .pdx-footer__place { align-self: end; }
+.pdx-footer__info { text-align: right; margin-left: auto; }
 .pdx-footer__place { font: 600 0.75rem/1.5 var(--font-family); letter-spacing: 0.12em; color: var(--pdx-green); }
 
 // Public directory: roomy typography and a colorful, printed-poster palette.
@@ -172,7 +175,11 @@ button, input, select, textarea { border-color: var(--pdx-rule); font-family: va
   .directory-card:nth-child(4n + 2) .directory-card__placeholder { background: #ffad91; }
   .directory-card:nth-child(4n + 3) .directory-card__placeholder { background: #c7dba9; }
   .directory-card:nth-child(4n + 4) .directory-card__placeholder { background: #f6db83; }
-  .directory-card:nth-child(even) .directory-card__placeholder::before { border-radius: 25% 45% 25% 45%; transform: rotate(12deg); }
+  .directory-card:nth-child(6n + 2) .directory-card__placeholder::before { border-radius: 25% 45% 25% 45%; transform: rotate(12deg); }
+  .directory-card:nth-child(6n + 3) .directory-card__placeholder::before { width: 58%; height: auto; aspect-ratio: 1; border-radius: 50%; transform: none; }
+  .directory-card:nth-child(6n + 4) .directory-card__placeholder::before { border-radius: 16%; transform: rotate(-8deg); }
+  .directory-card:nth-child(6n + 5) .directory-card__placeholder::before { border-radius: 50% 50% 14% 14%; transform: rotate(8deg); }
+  .directory-card:nth-child(6n) .directory-card__placeholder::before { border-radius: 65% 35% 55% 45% / 40% 55% 45% 60%; transform: rotate(-16deg); }
   .directory-card__kind { margin: 0 0 0.5rem; color: var(--tertiary); font: 600 0.7rem/1.4 var(--font-family); letter-spacing: 0.12em; text-transform: uppercase; }
   .directory-card__title { margin: 0; font: 600 1.9rem/1.1 var(--heading-font-family); letter-spacing: -0.04em; }
   .directory-card__location { margin: 0.6rem 0 0; color: var(--pdx-muted); font-size: 0.9rem; }
@@ -212,7 +219,7 @@ button, input, select, textarea { border-color: var(--pdx-rule); font-family: va
   .no-ember .d-header .title a::before { font-size: 2rem; }
   .no-ember .d-header .title a::after { font-size: 0.6rem; }
   .pdx-footer { flex-wrap: wrap; padding-inline: 16px; }
-  .pdx-footer__place { width: 100%; }
+  .pdx-footer__info { width: 100%; }
   #topic-title h1 { font-size: 2.25rem; }
   .discourse-directory {
     .directory { padding-top: 1.5rem; }
