@@ -16,8 +16,12 @@ try {
         await page.evaluate(() => document.fonts.ready);
         if (route === "/directory") {
           assert.equal(await page.locator(".directory-hero__eyebrow").count(), 0);
-          assert.equal(await page.locator(".directory-hero h1:visible").count(), 1);
+          assert.equal(await page.locator(".directory-hero h1").count(), 1);
+          assert.ok((await page.locator(".directory-hero").boundingBox()).height <= 1);
+          assert.equal(await page.locator(".directory-hero__description").isVisible(), false);
         }
+        assert.equal(await page.locator(".pdx-utility > span").innerText(), "Hot tattooers in your area");
+        assert.equal(await page.locator(".pdx-utility > span").isVisible(), true);
         const fonts = await page.evaluate(() => {
           const selectors = [".pdx-utility", ".pdx-footer strong", ".pdx-footer p", ".pdx-footer nav", ".directory-hero__title", ".directory-card__title", ".directory-filters button", ".pdx-wordmark__city", ".pdx-editorial h1"];
           const values = selectors.flatMap(selector => [...document.querySelectorAll(selector)].map(el => ({ selector, family: getComputedStyle(el).fontFamily })));

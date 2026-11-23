@@ -127,12 +127,16 @@ button, input, select, textarea { border-color: var(--pdx-rule); font-family: va
   #main-outlet { max-width: 1240px; }
   .directory { max-width: none; padding: 2rem 0; }
   .directory-hero {
-    position: relative; isolation: isolate; max-width: none; margin: 0 0 3rem;
-    padding: 3rem 5rem; text-align: center; border: 0; border-radius: 0;
+    position: relative; max-width: none; margin: 0;
+    padding: 0; border: 0; border-radius: 0;
     background: transparent; color: var(--primary);
   }
-  .directory-hero__title { max-width: 900px; margin: 0 auto; font: 600 clamp(3rem, 6vw, 5.5rem)/1 var(--heading-font-family); letter-spacing: -0.055em; text-wrap: balance; }
-  .directory-hero__description { max-width: none; margin: 1.5rem 0 0; color: var(--pdx-muted); font-size: 1.25rem; line-height: 1.5; }
+  // Keep the page heading accessible without a second visual masthead.
+  .directory-hero__title {
+    position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+    overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0;
+  }
+  .directory-hero__description { display: none; }
   .directory-toolbar { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding-bottom: 1rem; border-bottom: 2px solid var(--pdx-ink); margin-bottom: 1.5rem; }
   .directory-kind-nav { gap: 0.7rem; border: 0; margin: 0; }
   .directory-kind-nav__link { padding: 0.65rem 1.5rem; border: 1px solid var(--pdx-rule); border-radius: 30px; font: 600 1rem/1.4 var(--font-family); color: var(--primary); }
@@ -183,6 +187,10 @@ button, input, select, textarea { border-color: var(--pdx-rule); font-family: va
   .directory-record__title { font: 600 clamp(2.8rem, 5.5vw, 4.5rem)/1 var(--heading-font-family); letter-spacing: -0.04em; }
   .directory-record__image { aspect-ratio: 4 / 3; border-radius: 8px; }
   .directory-record__content { max-width: 48rem; margin-block: 1.5rem; }
+  .directory-record__layout--with-map .directory-record__article { padding: 2rem; }
+  .directory-record__layout--with-map .directory-record__header { grid-template-columns: minmax(100px, 0.5fr) 1fr; gap: 1.25rem; }
+  .directory-record__layout--with-map .directory-record__header--text-only { grid-template-columns: 1fr; }
+  .directory-record__layout--with-map .directory-record__title { font-size: clamp(2.5rem, 4vw, 3.5rem); }
   .directory-record__actions .btn { border: 1px solid var(--pdx-rule); }
   .directory-affiliations { border: 0; padding: 2rem 0 0; }
   .directory-affiliations h2 { font-size: 2rem; }
@@ -192,11 +200,10 @@ button, input, select, textarea { border-color: var(--pdx-rule); font-family: va
 }
 @media (max-width: 1000px) {
   .discourse-directory .directory-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .discourse-directory .directory-hero { padding-inline: 2rem; }
 }
 @media (max-width: 767px) {
-  .pdx-utility { padding-inline: 16px; }
-  .pdx-utility > span { display: none; }
+  .pdx-utility { padding-inline: 16px; flex-wrap: wrap; }
+  .pdx-utility > span { width: 100%; text-align: center; padding-top: 0.75rem; }
   .pdx-utility nav { justify-content: space-between; width: 100%; gap: 0.5rem; }
   .pdx-utility a { padding-block: 0.75rem; }
   .d-header { height: 70px; }
@@ -209,9 +216,6 @@ button, input, select, textarea { border-color: var(--pdx-rule); font-family: va
   #topic-title h1 { font-size: 2.25rem; }
   .discourse-directory {
     .directory { padding-top: 1.5rem; }
-    .directory-hero { padding: 2.5rem 0.25rem 1rem; margin-bottom: 2rem; }
-    .directory-hero__title { font-size: clamp(2.5rem, 10vw, 4rem); }
-    .directory-hero__description { font-size: 1.05rem; }
     .directory-kind-nav__link { padding: 0.65rem 0.9rem; }
     .directory-view-toggle .btn { padding-inline: 0.75rem; }
     .directory-filter-panel { padding: 1rem; }
@@ -220,6 +224,8 @@ button, input, select, textarea { border-color: var(--pdx-rule); font-family: va
     .directory-filters .btn { width: 100%; }
     .directory-grid { gap: 1.25rem; }
     .directory-record__header { grid-template-columns: 1fr; }
+    .directory-record__layout--with-map .directory-record__header { grid-template-columns: 1fr; }
+    .directory-record__layout--with-map .directory-record__article { padding: 1.5rem; }
     .directory-record__article { padding: 1.5rem; }
   }
 }
