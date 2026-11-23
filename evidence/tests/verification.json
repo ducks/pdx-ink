@@ -1,0 +1,486 @@
+{
+  "checks": [
+    {
+      "name": "desktop: production listings match",
+      "detail": true
+    },
+    {
+      "name": "desktop: directory search by keyboard",
+      "detail": true
+    },
+    {
+      "name": "desktop: specialization filter and empty results",
+      "detail": true
+    },
+    {
+      "name": "desktop: production map pin and popup",
+      "detail": true
+    },
+    {
+      "name": "desktop: profile source and Instagram link",
+      "detail": true
+    },
+    {
+      "name": "desktop: homepage renders and accessibility checked",
+      "detail": {
+        "violations": 0
+      }
+    },
+    {
+      "name": "desktop: topic renders and accessibility checked",
+      "detail": {
+        "violations": 2
+      }
+    },
+    {
+      "name": "desktop: community renders and accessibility checked",
+      "detail": {
+        "violations": 2
+      }
+    },
+    {
+      "name": "desktop: search renders and accessibility checked",
+      "detail": {
+        "violations": 2
+      }
+    },
+    {
+      "name": "desktop: profile renders and accessibility checked",
+      "detail": {
+        "violations": 0
+      }
+    },
+    {
+      "name": "desktop: native full-page search returns production topic",
+      "detail": true
+    },
+    {
+      "name": "desktop: keyboard focus enters controls",
+      "detail": {
+        "tag": "A",
+        "outline": "solid"
+      }
+    },
+    {
+      "name": "desktop: native quote and composer draft",
+      "detail": true
+    },
+    {
+      "name": "desktop: draft discarded",
+      "detail": true
+    },
+    {
+      "name": "desktop: dark palette",
+      "detail": {
+        "background": "rgb(21, 31, 30)",
+        "foreground": "rgb(242, 233, 215)"
+      }
+    },
+    {
+      "name": "mobile: production listings match",
+      "detail": true
+    },
+    {
+      "name": "mobile: directory search by keyboard",
+      "detail": true
+    },
+    {
+      "name": "mobile: specialization filter and empty results",
+      "detail": true
+    },
+    {
+      "name": "mobile: production map pin and popup",
+      "detail": true
+    },
+    {
+      "name": "mobile: profile source and Instagram link",
+      "detail": true
+    },
+    {
+      "name": "mobile: homepage renders and accessibility checked",
+      "detail": {
+        "violations": 0
+      }
+    },
+    {
+      "name": "mobile: topic renders and accessibility checked",
+      "detail": {
+        "violations": 3
+      }
+    },
+    {
+      "name": "mobile: community renders and accessibility checked",
+      "detail": {
+        "violations": 3
+      }
+    },
+    {
+      "name": "mobile: search renders and accessibility checked",
+      "detail": {
+        "violations": 2
+      }
+    },
+    {
+      "name": "mobile: profile renders and accessibility checked",
+      "detail": {
+        "violations": 1
+      }
+    },
+    {
+      "name": "mobile: native full-page search returns production topic",
+      "detail": true
+    },
+    {
+      "name": "mobile: keyboard focus enters controls",
+      "detail": {
+        "tag": "A",
+        "outline": "solid"
+      }
+    },
+    {
+      "name": "mobile: native quote and composer draft",
+      "detail": true
+    },
+    {
+      "name": "mobile: draft discarded",
+      "detail": true
+    },
+    {
+      "name": "mobile: dark palette",
+      "detail": {
+        "background": "rgb(21, 31, 30)",
+        "foreground": "rgb(242, 233, 215)"
+      }
+    }
+  ],
+  "accessibility": [
+    {
+      "device": "desktop",
+      "name": "homepage",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "device": "desktop",
+      "name": "topic",
+      "violations": [
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "nodes": [
+            {
+              "target": [
+                "#toggle-current-user"
+              ],
+              "summary": "Fix any of the following:\n  Element has focusable descendants"
+            }
+          ]
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "description": "Ensure touch targets have sufficient size and space",
+          "nodes": [
+            {
+              "target": [
+                ".badge-notification"
+              ],
+              "summary": "Fix any of the following:\n  Target has insufficient size (21px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "aria-required-children",
+        "color-contrast"
+      ]
+    },
+    {
+      "device": "desktop",
+      "name": "community",
+      "violations": [
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "nodes": [
+            {
+              "target": [
+                "#toggle-current-user"
+              ],
+              "summary": "Fix any of the following:\n  Element has focusable descendants"
+            }
+          ]
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "description": "Ensure touch targets have sufficient size and space",
+          "nodes": [
+            {
+              "target": [
+                ".badge-notification"
+              ],
+              "summary": "Fix any of the following:\n  Target has insufficient size (21px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    },
+    {
+      "device": "desktop",
+      "name": "search",
+      "violations": [
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "nodes": [
+            {
+              "target": [
+                "#toggle-current-user"
+              ],
+              "summary": "Fix any of the following:\n  Element has focusable descendants"
+            }
+          ]
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "description": "Ensure touch targets have sufficient size and space",
+          "nodes": [
+            {
+              "target": [
+                ".badge-notification"
+              ],
+              "summary": "Fix any of the following:\n  Target has insufficient size (21px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    },
+    {
+      "device": "desktop",
+      "name": "profile",
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast",
+        "nested-interactive",
+        "target-size"
+      ]
+    },
+    {
+      "device": "mobile",
+      "name": "homepage",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "device": "mobile",
+      "name": "topic",
+      "violations": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "nodes": [
+            {
+              "target": [
+                "#ember112"
+              ],
+              "summary": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            },
+            {
+              "target": [
+                "#ember113"
+              ],
+              "summary": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            }
+          ]
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "nodes": [
+            {
+              "target": [
+                "#toggle-current-user"
+              ],
+              "summary": "Fix any of the following:\n  Element has focusable descendants"
+            }
+          ]
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "description": "Ensure touch targets have sufficient size and space",
+          "nodes": [
+            {
+              "target": [
+                ".badge-notification"
+              ],
+              "summary": "Fix any of the following:\n  Target has insufficient size (21px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "aria-required-children",
+        "color-contrast"
+      ]
+    },
+    {
+      "device": "mobile",
+      "name": "community",
+      "violations": [
+        {
+          "id": "button-name",
+          "impact": "critical",
+          "description": "Ensure buttons have discernible text",
+          "nodes": [
+            {
+              "target": [
+                "#create-topic"
+              ],
+              "summary": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+            }
+          ]
+        },
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "nodes": [
+            {
+              "target": [
+                "#toggle-current-user"
+              ],
+              "summary": "Fix any of the following:\n  Element has focusable descendants"
+            }
+          ]
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "description": "Ensure touch targets have sufficient size and space",
+          "nodes": [
+            {
+              "target": [
+                ".badge-notification"
+              ],
+              "summary": "Fix any of the following:\n  Target has insufficient size (21px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+            },
+            {
+              "target": [
+                ".topic-status"
+              ],
+              "summary": "Fix any of the following:\n  Target has insufficient size (24px by 13.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21.6px instead of at least 24px."
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast",
+        "th-has-data-cells"
+      ]
+    },
+    {
+      "device": "mobile",
+      "name": "search",
+      "violations": [
+        {
+          "id": "nested-interactive",
+          "impact": "serious",
+          "description": "Ensure interactive controls are not nested as they are not always announced by screen readers or can cause focus problems for assistive technologies",
+          "nodes": [
+            {
+              "target": [
+                "#toggle-current-user"
+              ],
+              "summary": "Fix any of the following:\n  Element has focusable descendants"
+            }
+          ]
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "description": "Ensure touch targets have sufficient size and space",
+          "nodes": [
+            {
+              "target": [
+                ".badge-notification"
+              ],
+              "summary": "Fix any of the following:\n  Target has insufficient size (21px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    },
+    {
+      "device": "mobile",
+      "name": "profile",
+      "violations": [
+        {
+          "id": "link-name",
+          "impact": "serious",
+          "description": "Ensure links have discernible text",
+          "nodes": [
+            {
+              "target": [
+                "#ember101"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "target": [
+                "#ember102"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "target": [
+                "#ember103"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            },
+            {
+              "target": [
+                "#ember104"
+              ],
+              "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+            }
+          ]
+        }
+      ],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast",
+        "nested-interactive",
+        "target-size"
+      ]
+    }
+  ],
+  "errors": []
+}

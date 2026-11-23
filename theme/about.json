@@ -1,0 +1,40 @@
+{
+  "name": "PDX Ink",
+  "authors": "PDX Tattooer Directory",
+  "theme_version": "20261123",
+  "minimum_discourse_version": "2026.8.0",
+  "description": "A bright, playful directory and community theme for Portland tattooers, with light and dark palettes.",
+  "assets": {
+    "barlow": "assets/fonts/Barlow-Regular.ttf",
+    "barlow_semibold": "assets/fonts/Barlow-SemiBold.ttf"
+  },
+  "theme_site_settings": {
+    "enable_welcome_banner": false
+  },
+  "color_schemes": {
+    "PDX Flash": {
+      "primary": "302326",
+      "secondary": "FFFCF9",
+      "tertiary": "A63D29",
+      "quaternary": "5C4A82",
+      "header_background": "FFFCF9",
+      "header_primary": "302326",
+      "highlight": "F6DB83",
+      "danger": "B32D42",
+      "success": "3F6949",
+      "love": "A63D29"
+    },
+    "PDX After Hours": {
+      "primary": "F7EDE4",
+      "secondary": "201D24",
+      "tertiary": "FFAD91",
+      "quaternary": "D5C6EE",
+      "header_background": "201D24",
+      "header_primary": "F7EDE4",
+      "highlight": "5C4824",
+      "danger": "FF9BAD",
+      "success": "C7DBA9",
+      "love": "FFAD91"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+:root {
+  --pdx-surface: #{dark-light-choose(#fff5ef, #2b2631)};
+  --pdx-wash: #{dark-light-choose(#f1e9f8, #393043)};
+  --pdx-muted: #{dark-light-choose(#69595c, #c7b9c5)};
+  --pdx-rule: #{dark-light-choose(#b5a3a5, #8d7a92)};
+  --pdx-green: #{dark-light-choose(#3f6949, #c7dba9)};
+  --pdx-gold: #{dark-light-choose(#795514, #f6db83)};
+  --pdx-ink: #{dark-light-choose(#302326, #f7ede4)};
+  --pdx-coral: #ffad91;
+}

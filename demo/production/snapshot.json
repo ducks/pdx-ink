@@ -1,0 +1,858 @@
+{
+  "source": "https://pdx.tattooer.directory",
+  "captured_at": "2026-09-10T15:18:53.102Z",
+  "people": [
+    {
+      "id": 1,
+      "slug": "damn-zippy",
+      "name": "Damn Zippy",
+      "path": "/directory/people/1/damn-zippy",
+      "bio_cooked": "<p>Also known as Olive. Joyfully chaotic tattooing inspired by cartoons and movies of the 80s and 90s—big bold lines, saturated color, and genuinely fun ideas.</p>",
+      "bio_text": "Also known as Olive. Joyfully chaotic tattooing inspired by cartoons and movies of the 80s and 90s—big bold lines, saturated color, and genuinely fun ideas.",
+      "labels": [
+        "Bold color",
+        "Cartoon",
+        "Illustrative",
+        "Weird & fun",
+        "Foster-Powell"
+      ],
+      "related": [
+        {
+          "path": "/directory/shops/1/heart-eyes-tattoo",
+          "name": "Heart Eyes Tattoo"
+        }
+      ],
+      "image": null,
+      "address": "",
+      "links": [
+        {
+          "href": "https://instagram.com/damn_zippy",
+          "label": "Instagram"
+        }
+      ],
+      "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "@id": "https://pdx.tattooer.directory/directory/people/1/damn-zippy#person",
+        "name": "Damn Zippy",
+        "url": "https://pdx.tattooer.directory/directory/people/1/damn-zippy",
+        "description": "Also known as Olive. Joyfully chaotic tattooing inspired by cartoons and movies of the 80s and 90s—big bold lines, saturated color, and genuinely fun ideas.",
+        "sameAs": [
+          "https://instagram.com/damn_zippy"
+        ],
+        "knowsAbout": [
+          "Bold color",
+          "Cartoon",
+          "Illustrative",
+          "Weird & fun"
+        ],
+        "areaServed": [
+          {
+            "@type": "Place",
+            "name": "Foster-Powell"
+          }
+        ],
+        "worksFor": [
+          {
+            "@type": "LocalBusiness",
+            "@id": "https://pdx.tattooer.directory/directory/shops/1/heart-eyes-tattoo#business",
+            "name": "Heart Eyes Tattoo",
+            "url": "https://pdx.tattooer.directory/directory/shops/1/heart-eyes-tattoo"
+          }
+        ]
+      },
+      "map": "<section class=\"directory-map \" data-directory-map=\"\" data-tile-url=\"https://tile.openstreetmap.org/{z}/{x}/{y}.png\" data-attribution=\"&amp;copy; &lt;a href=&quot;https://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt; contributors\">\n  <div class=\"directory-map__canvas\" role=\"region\" aria-label=\"Map\"></div>\n  <script type=\"application/json\" class=\"directory-map__data\">[{\"latitude\":45.4950863,\"longitude\":-122.6080767,\"label\":\"Heart Eyes Tattoo\",\"url\":\"/directory/shops/1/heart-eyes-tattoo\",\"address\":\"5280 SE Foster Rd, Portland, OR\",\"entries\":[{\"label\":\"Damn Zippy\",\"url\":\"/directory/people/1/damn-zippy\"}]}]</script>\n</section>"
+    },
+    {
+      "id": 2,
+      "slug": "dawn-davis",
+      "name": "Dawn Davis",
+      "path": "/directory/people/2/dawn-davis",
+      "bio_cooked": "<p>Tattooing since 2018, Dawn works in black-and-grey illustrative tattooing with a focus on quiet, nature-inspired pieces. All bodies and skin tones welcome.</p>",
+      "bio_text": "Tattooing since 2018, Dawn works in black-and-grey illustrative tattooing with a focus on quiet, nature-inspired pieces. All bodies and skin tones welcome.",
+      "labels": [
+        "Black & grey",
+        "Illustrative",
+        "Nature",
+        "Foster-Powell"
+      ],
+      "related": [
+        {
+          "path": "/directory/shops/1/heart-eyes-tattoo",
+          "name": "Heart Eyes Tattoo"
+        }
+      ],
+      "image": null,
+      "address": "",
+      "links": [
+        {
+          "href": "https://instagram.com/dawn.tattoos",
+          "label": "Instagram"
+        }
+      ],
+      "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "@id": "https://pdx.tattooer.directory/directory/people/2/dawn-davis#person",
+        "name": "Dawn Davis",
+        "url": "https://pdx.tattooer.directory/directory/people/2/dawn-davis",
+        "description": "Tattooing since 2018, Dawn works in black-and-grey illustrative tattooing with a focus on quiet, nature-inspired pieces. All bodies and skin tones welcome.",
+        "sameAs": [
+          "https://instagram.com/dawn.tattoos"
+        ],
+        "knowsAbout": [
+          "Black & grey",
+          "Illustrative",
+          "Nature"
+        ],
+        "areaServed": [
+          {
+            "@type": "Place",
+            "name": "Foster-Powell"
+          }
+        ],
+        "worksFor": [
+          {
+            "@type": "LocalBusiness",
+            "@id": "https://pdx.tattooer.directory/directory/shops/1/heart-eyes-tattoo#business",
+            "name": "Heart Eyes Tattoo",
+            "url": "https://pdx.tattooer.directory/directory/shops/1/heart-eyes-tattoo"
+          }
+        ]
+      },
+      "map": "<section class=\"directory-map \" data-directory-map=\"\" data-tile-url=\"https://tile.openstreetmap.org/{z}/{x}/{y}.png\" data-attribution=\"&amp;copy; &lt;a href=&quot;https://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt; contributors\">\n  <div class=\"directory-map__canvas\" role=\"region\" aria-label=\"Map\"></div>\n  <script type=\"application/json\" class=\"directory-map__data\">[{\"latitude\":45.4950863,\"longitude\":-122.6080767,\"label\":\"Heart Eyes Tattoo\",\"url\":\"/directory/shops/1/heart-eyes-tattoo\",\"address\":\"5280 SE Foster Rd, Portland, OR\",\"entries\":[{\"label\":\"Dawn Davis\",\"url\":\"/directory/people/2/dawn-davis\"}]}]</script>\n</section>"
+    },
+    {
+      "id": 3,
+      "slug": "shannon-margo",
+      "name": "Shannon Margo",
+      "path": "/directory/people/3/shannon-margo",
+      "bio_cooked": "<p>Works under the name Margo and brings a broad range of custom tattooing to the shop. Check Instagram for current availability and booking information.</p>",
+      "bio_text": "Works under the name Margo and brings a broad range of custom tattooing to the shop. Check Instagram for current availability and booking information.",
+      "labels": [
+        "Custom",
+        "Weird & fun",
+        "Foster-Powell"
+      ],
+      "related": [
+        {
+          "path": "/directory/shops/1/heart-eyes-tattoo",
+          "name": "Heart Eyes Tattoo"
+        }
+      ],
+      "image": null,
+      "address": "",
+      "links": [
+        {
+          "href": "https://instagram.com/margotattoos",
+          "label": "Instagram"
+        }
+      ],
+      "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "@id": "https://pdx.tattooer.directory/directory/people/3/shannon-margo#person",
+        "name": "Shannon Margo",
+        "url": "https://pdx.tattooer.directory/directory/people/3/shannon-margo",
+        "description": "Works under the name Margo and brings a broad range of custom tattooing to the shop. Check Instagram for current availability and booking information.",
+        "sameAs": [
+          "https://instagram.com/margotattoos"
+        ],
+        "knowsAbout": [
+          "Custom",
+          "Weird & fun"
+        ],
+        "areaServed": [
+          {
+            "@type": "Place",
+            "name": "Foster-Powell"
+          }
+        ],
+        "worksFor": [
+          {
+            "@type": "LocalBusiness",
+            "@id": "https://pdx.tattooer.directory/directory/shops/1/heart-eyes-tattoo#business",
+            "name": "Heart Eyes Tattoo",
+            "url": "https://pdx.tattooer.directory/directory/shops/1/heart-eyes-tattoo"
+          }
+        ]
+      },
+      "map": "<section class=\"directory-map \" data-directory-map=\"\" data-tile-url=\"https://tile.openstreetmap.org/{z}/{x}/{y}.png\" data-attribution=\"&amp;copy; &lt;a href=&quot;https://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt; contributors\">\n  <div class=\"directory-map__canvas\" role=\"region\" aria-label=\"Map\"></div>\n  <script type=\"application/json\" class=\"directory-map__data\">[{\"latitude\":45.4950863,\"longitude\":-122.6080767,\"label\":\"Heart Eyes Tattoo\",\"url\":\"/directory/shops/1/heart-eyes-tattoo\",\"address\":\"5280 SE Foster Rd, Portland, OR\",\"entries\":[{\"label\":\"Shannon Margo\",\"url\":\"/directory/people/3/shannon-margo\"}]}]</script>\n</section>"
+    },
+    {
+      "id": 4,
+      "slug": "fox-parade",
+      "name": "Fox Parade",
+      "path": "/directory/people/4/fox-parade",
+      "bio_cooked": "<p>Custom tattoo work at Heart Eyes. See Instagram for portfolio and booking information.</p>",
+      "bio_text": "Custom tattoo work at Heart Eyes. See Instagram for portfolio and booking information.",
+      "labels": [
+        "Custom",
+        "Illustrative",
+        "Foster-Powell"
+      ],
+      "related": [
+        {
+          "path": "/directory/shops/1/heart-eyes-tattoo",
+          "name": "Heart Eyes Tattoo"
+        }
+      ],
+      "image": null,
+      "address": "",
+      "links": [
+        {
+          "href": "https://instagram.com/fox.parade",
+          "label": "Instagram"
+        }
+      ],
+      "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "@id": "https://pdx.tattooer.directory/directory/people/4/fox-parade#person",
+        "name": "Fox Parade",
+        "url": "https://pdx.tattooer.directory/directory/people/4/fox-parade",
+        "description": "Custom tattoo work at Heart Eyes. See Instagram for portfolio and booking information.",
+        "sameAs": [
+          "https://instagram.com/fox.parade"
+        ],
+        "knowsAbout": [
+          "Custom",
+          "Illustrative"
+        ],
+        "areaServed": [
+          {
+            "@type": "Place",
+            "name": "Foster-Powell"
+          }
+        ],
+        "worksFor": [
+          {
+            "@type": "LocalBusiness",
+            "@id": "https://pdx.tattooer.directory/directory/shops/1/heart-eyes-tattoo#business",
+            "name": "Heart Eyes Tattoo",
+            "url": "https://pdx.tattooer.directory/directory/shops/1/heart-eyes-tattoo"
+          }
+        ]
+      },
+      "map": "<section class=\"directory-map \" data-directory-map=\"\" data-tile-url=\"https://tile.openstreetmap.org/{z}/{x}/{y}.png\" data-attribution=\"&amp;copy; &lt;a href=&quot;https://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt; contributors\">\n  <div class=\"directory-map__canvas\" role=\"region\" aria-label=\"Map\"></div>\n  <script type=\"application/json\" class=\"directory-map__data\">[{\"latitude\":45.4950863,\"longitude\":-122.6080767,\"label\":\"Heart Eyes Tattoo\",\"url\":\"/directory/shops/1/heart-eyes-tattoo\",\"address\":\"5280 SE Foster Rd, Portland, OR\",\"entries\":[{\"label\":\"Fox Parade\",\"url\":\"/directory/people/4/fox-parade\"}]}]</script>\n</section>"
+    },
+    {
+      "id": 5,
+      "slug": "kale",
+      "name": "Kale",
+      "path": "/directory/people/5/kale",
+      "bio_cooked": "<p>Custom tattoo work at Heart Eyes. See Instagram for portfolio and booking information.</p>",
+      "bio_text": "Custom tattoo work at Heart Eyes. See Instagram for portfolio and booking information.",
+      "labels": [
+        "Custom",
+        "Cartoon",
+        "Foster-Powell"
+      ],
+      "related": [
+        {
+          "path": "/directory/shops/1/heart-eyes-tattoo",
+          "name": "Heart Eyes Tattoo"
+        }
+      ],
+      "image": null,
+      "address": "",
+      "links": [
+        {
+          "href": "https://instagram.com/boyhowdyhotdog",
+          "label": "Instagram"
+        }
+      ],
+      "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "@id": "https://pdx.tattooer.directory/directory/people/5/kale#person",
+        "name": "Kale",
+        "url": "https://pdx.tattooer.directory/directory/people/5/kale",
+        "description": "Custom tattoo work at Heart Eyes. See Instagram for portfolio and booking information.",
+        "sameAs": [
+          "https://instagram.com/boyhowdyhotdog"
+        ],
+        "knowsAbout": [
+          "Custom",
+          "Cartoon"
+        ],
+        "areaServed": [
+          {
+            "@type": "Place",
+            "name": "Foster-Powell"
+          }
+        ],
+        "worksFor": [
+          {
+            "@type": "LocalBusiness",
+            "@id": "https://pdx.tattooer.directory/directory/shops/1/heart-eyes-tattoo#business",
+            "name": "Heart Eyes Tattoo",
+            "url": "https://pdx.tattooer.directory/directory/shops/1/heart-eyes-tattoo"
+          }
+        ]
+      },
+      "map": "<section class=\"directory-map \" data-directory-map=\"\" data-tile-url=\"https://tile.openstreetmap.org/{z}/{x}/{y}.png\" data-attribution=\"&amp;copy; &lt;a href=&quot;https://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt; contributors\">\n  <div class=\"directory-map__canvas\" role=\"region\" aria-label=\"Map\"></div>\n  <script type=\"application/json\" class=\"directory-map__data\">[{\"latitude\":45.4950863,\"longitude\":-122.6080767,\"label\":\"Heart Eyes Tattoo\",\"url\":\"/directory/shops/1/heart-eyes-tattoo\",\"address\":\"5280 SE Foster Rd, Portland, OR\",\"entries\":[{\"label\":\"Kale\",\"url\":\"/directory/people/5/kale\"}]}]</script>\n</section>"
+    }
+  ],
+  "shops": [
+    {
+      "id": 1,
+      "slug": "heart-eyes-tattoo",
+      "name": "Heart Eyes Tattoo",
+      "path": "/directory/shops/1/heart-eyes-tattoo",
+      "bio_cooked": "<p>A welcoming neighborhood tattoo studio in Southeast Portland. A collective of artists who care about the work—and about making the whole experience feel easy, welcoming, and fun.</p>",
+      "bio_text": "A welcoming neighborhood tattoo studio in Southeast Portland. A collective of artists who care about the work—and about making the whole experience feel easy, welcoming, and fun.",
+      "labels": [
+        "Foster-Powell"
+      ],
+      "related": [
+        {
+          "path": "/directory/people/1/damn-zippy",
+          "name": "Damn Zippy"
+        },
+        {
+          "path": "/directory/people/2/dawn-davis",
+          "name": "Dawn Davis"
+        },
+        {
+          "path": "/directory/people/3/shannon-margo",
+          "name": "Shannon Margo"
+        },
+        {
+          "path": "/directory/people/4/fox-parade",
+          "name": "Fox Parade"
+        },
+        {
+          "path": "/directory/people/5/kale",
+          "name": "Kale"
+        }
+      ],
+      "image": null,
+      "address": "5280 SE Foster Rd, Portland, OR",
+      "links": [
+        {
+          "href": "https://instagram.com/hearteyestattoo",
+          "label": "Instagram"
+        }
+      ],
+      "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "@id": "https://pdx.tattooer.directory/directory/shops/1/heart-eyes-tattoo#business",
+        "name": "Heart Eyes Tattoo",
+        "url": "https://pdx.tattooer.directory/directory/shops/1/heart-eyes-tattoo",
+        "description": "A welcoming neighborhood tattoo studio in Southeast Portland. A collective of artists who care about the work—and about making the whole experience feel easy, welcoming, and fun.",
+        "sameAs": [
+          "https://instagram.com/hearteyestattoo"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "5280 SE Foster Rd, Portland, OR",
+          "addressLocality": "Foster-Powell"
+        },
+        "areaServed": [
+          {
+            "@type": "Place",
+            "name": "Foster-Powell"
+          }
+        ],
+        "employee": [
+          {
+            "@type": "Person",
+            "@id": "https://pdx.tattooer.directory/directory/people/1/damn-zippy#person",
+            "name": "Damn Zippy",
+            "url": "https://pdx.tattooer.directory/directory/people/1/damn-zippy"
+          },
+          {
+            "@type": "Person",
+            "@id": "https://pdx.tattooer.directory/directory/people/2/dawn-davis#person",
+            "name": "Dawn Davis",
+            "url": "https://pdx.tattooer.directory/directory/people/2/dawn-davis"
+          },
+          {
+            "@type": "Person",
+            "@id": "https://pdx.tattooer.directory/directory/people/3/shannon-margo#person",
+            "name": "Shannon Margo",
+            "url": "https://pdx.tattooer.directory/directory/people/3/shannon-margo"
+          },
+          {
+            "@type": "Person",
+            "@id": "https://pdx.tattooer.directory/directory/people/4/fox-parade#person",
+            "name": "Fox Parade",
+            "url": "https://pdx.tattooer.directory/directory/people/4/fox-parade"
+          },
+          {
+            "@type": "Person",
+            "@id": "https://pdx.tattooer.directory/directory/people/5/kale#person",
+            "name": "Kale",
+            "url": "https://pdx.tattooer.directory/directory/people/5/kale"
+          }
+        ],
+        "knowsAbout": [
+          "Black & grey",
+          "Bold color",
+          "Cartoon",
+          "Custom",
+          "Illustrative",
+          "Nature",
+          "Weird & fun"
+        ]
+      },
+      "map": "<section class=\"directory-map \" data-directory-map=\"\" data-tile-url=\"https://tile.openstreetmap.org/{z}/{x}/{y}.png\" data-attribution=\"&amp;copy; &lt;a href=&quot;https://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt; contributors\">\n  <div class=\"directory-map__canvas\" role=\"region\" aria-label=\"Map\"></div>\n  <script type=\"application/json\" class=\"directory-map__data\">[{\"latitude\":45.4950863,\"longitude\":-122.6080767,\"label\":\"Heart Eyes Tattoo\",\"url\":\"/directory/shops/1/heart-eyes-tattoo\",\"address\":\"5280 SE Foster Rd, Portland, OR\",\"entries\":[{\"label\":\"Damn Zippy\",\"url\":\"/directory/people/1/damn-zippy\"},{\"label\":\"Dawn Davis\",\"url\":\"/directory/people/2/dawn-davis\"},{\"label\":\"Shannon Margo\",\"url\":\"/directory/people/3/shannon-margo\"},{\"label\":\"Fox Parade\",\"url\":\"/directory/people/4/fox-parade\"},{\"label\":\"Kale\",\"url\":\"/directory/people/5/kale\"}]}]</script>\n</section>"
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "General",
+      "color": "25AAE2",
+      "text_color": "FFFFFF",
+      "style_type": "emoji",
+      "icon": null,
+      "emoji": "blue_book",
+      "slug": "general",
+      "topic_count": 1,
+      "post_count": 1,
+      "position": 3,
+      "description": "<p>Create topics here that don’t fit into any other existing category.</p>",
+      "description_text": "Create topics here that don’t fit into any other existing category.",
+      "description_excerpt": "Create topics here that don’t fit into any other existing category.",
+      "topic_url": "/t/about-the-general-category/3",
+      "read_restricted": false,
+      "permission": null,
+      "notification_level": 1,
+      "topic_template": null,
+      "topic_title_placeholder": null,
+      "has_children": false,
+      "subcategory_count": null,
+      "sort_order": null,
+      "sort_ascending": null,
+      "show_subcategory_list": false,
+      "num_featured_topics": 3,
+      "default_view": null,
+      "subcategory_list_style": "rows_with_featured_topics",
+      "default_top_period": "all",
+      "default_list_filter": "all",
+      "minimum_required_tags": 0,
+      "navigate_to_first_post_after_read": false,
+      "custom_fields": {
+        "enable_unassigned_filter": null,
+        "additional_assign_allowed_on_groups": null,
+        "sort_topics_by_event_start_date": null,
+        "disable_topic_resorting": null,
+        "create_as_post_voting_default": null,
+        "only_post_voting_in_this_category": null,
+        "enable_accepted_answers": null,
+        "notify_on_staff_accept_solved": null,
+        "empty_box_on_unsolved": null,
+        "enable_shared_issues": null,
+        "enable_topic_voting": null,
+        "has_chat_enabled": true
+      },
+      "topics_day": 0,
+      "topics_week": 0,
+      "topics_month": 1,
+      "topics_year": 1,
+      "topics_all_time": 1,
+      "subcategory_ids": [],
+      "uploaded_logo": null,
+      "uploaded_logo_dark": null,
+      "uploaded_background": null,
+      "uploaded_background_dark": null,
+      "topics": [
+        {
+          "fancy_title": "Welcome to PDX Tattooer Directory! :wave:",
+          "id": 5,
+          "title": "Welcome to PDX Tattooer Directory! :wave:",
+          "slug": "welcome-to-pdx-tattooer-directory",
+          "posts_count": 1,
+          "reply_count": 0,
+          "highest_post_number": 1,
+          "image_url": null,
+          "created_at": "2026-08-26T18:39:28.038Z",
+          "last_posted_at": "2026-08-26T18:39:28.163Z",
+          "bumped": true,
+          "bumped_at": "2026-08-26T18:39:28.163Z",
+          "archetype": "regular",
+          "unseen": false,
+          "pinned": true,
+          "unpinned": null,
+          "excerpt": "We are so glad you joined us. \nHere are some things you can do to get started: \n:speaking_head: Introduce yourself by adding your picture and information about yourself and your interests to your profile. What is one thi&hellip;",
+          "visible": true,
+          "closed": false,
+          "archived": false,
+          "bookmarked": null,
+          "liked": null,
+          "unicode_title": "Welcome to PDX Tattooer Directory! 👋",
+          "has_accepted_answer": false,
+          "last_poster": {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/images/discourse-logo-sketch-small.png"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Uncategorized",
+      "color": "0088CC",
+      "text_color": "FFFFFF",
+      "style_type": "emoji",
+      "icon": null,
+      "emoji": "card_file_box",
+      "slug": "uncategorized",
+      "topic_count": 0,
+      "post_count": 0,
+      "position": 0,
+      "description": null,
+      "description_text": null,
+      "description_excerpt": null,
+      "topic_url": null,
+      "read_restricted": false,
+      "permission": null,
+      "notification_level": 1,
+      "topic_template": null,
+      "topic_title_placeholder": null,
+      "has_children": false,
+      "subcategory_count": null,
+      "sort_order": null,
+      "sort_ascending": null,
+      "show_subcategory_list": false,
+      "num_featured_topics": 3,
+      "default_view": null,
+      "subcategory_list_style": "rows_with_featured_topics",
+      "default_top_period": "all",
+      "default_list_filter": "all",
+      "minimum_required_tags": 0,
+      "navigate_to_first_post_after_read": false,
+      "custom_fields": {
+        "has_chat_enabled": null,
+        "enable_unassigned_filter": null,
+        "additional_assign_allowed_on_groups": null,
+        "sort_topics_by_event_start_date": null,
+        "disable_topic_resorting": null,
+        "create_as_post_voting_default": null,
+        "only_post_voting_in_this_category": null,
+        "enable_accepted_answers": null,
+        "notify_on_staff_accept_solved": null,
+        "empty_box_on_unsolved": null,
+        "enable_shared_issues": null,
+        "enable_topic_voting": null
+      },
+      "topics_day": 0,
+      "topics_week": 0,
+      "topics_month": 0,
+      "topics_year": 0,
+      "topics_all_time": 0,
+      "subcategory_ids": [],
+      "uploaded_logo": null,
+      "uploaded_logo_dark": null,
+      "uploaded_background": null,
+      "uploaded_background_dark": null
+    },
+    {
+      "id": 2,
+      "name": "Site Feedback",
+      "color": "808281",
+      "text_color": "FFFFFF",
+      "style_type": "emoji",
+      "icon": null,
+      "emoji": "thought_balloon",
+      "slug": "site-feedback",
+      "topic_count": 0,
+      "post_count": 0,
+      "position": 1,
+      "description": "<p>Discussion about this site, its organization, how it works, and how we can improve it.</p>",
+      "description_text": "Discussion about this site, its organization, how it works, and how we can improve it.",
+      "description_excerpt": "Discussion about this site, its organization, how it works, and how we can improve it.",
+      "topic_url": "/t/about-the-site-feedback-category/1",
+      "read_restricted": false,
+      "permission": null,
+      "notification_level": 1,
+      "topic_template": null,
+      "topic_title_placeholder": null,
+      "has_children": false,
+      "subcategory_count": null,
+      "sort_order": null,
+      "sort_ascending": null,
+      "show_subcategory_list": false,
+      "num_featured_topics": 3,
+      "default_view": null,
+      "subcategory_list_style": "rows_with_featured_topics",
+      "default_top_period": "all",
+      "default_list_filter": "all",
+      "minimum_required_tags": 0,
+      "navigate_to_first_post_after_read": false,
+      "custom_fields": {
+        "has_chat_enabled": null,
+        "enable_unassigned_filter": null,
+        "additional_assign_allowed_on_groups": null,
+        "sort_topics_by_event_start_date": null,
+        "disable_topic_resorting": null,
+        "create_as_post_voting_default": null,
+        "only_post_voting_in_this_category": null,
+        "enable_accepted_answers": null,
+        "notify_on_staff_accept_solved": null,
+        "empty_box_on_unsolved": null,
+        "enable_shared_issues": null,
+        "enable_topic_voting": null
+      },
+      "topics_day": 0,
+      "topics_week": 0,
+      "topics_month": 0,
+      "topics_year": 0,
+      "topics_all_time": 0,
+      "subcategory_ids": [],
+      "uploaded_logo": null,
+      "uploaded_logo_dark": null,
+      "uploaded_background": null,
+      "uploaded_background_dark": null
+    }
+  ],
+  "topics": [
+    {
+      "post_stream": {
+        "posts": [
+          {
+            "id": 6,
+            "name": "system",
+            "username": "system",
+            "avatar_template": "/images/discourse-logo-sketch-small.png",
+            "created_at": "2026-08-26T18:39:28.163Z",
+            "cooked": "<p>We are so glad you joined us.</p>\n<p>Here are some things you can do to get started:</p>\n<p><img src=\"https://pdx.tattooer.directory/images/emoji/twitter/speaking_head.png?v=15\" title=\":speaking_head:\" class=\"emoji\" alt=\":speaking_head:\" loading=\"lazy\" width=\"20\" height=\"20\"> <strong>Introduce yourself</strong> by adding your picture and information about yourself and your interests to <a href=\"/my/preferences/account\">your profile</a>. What is one thing you’d like to be asked about?</p>\n<p><img src=\"https://pdx.tattooer.directory/images/emoji/twitter/open_book.png?v=15\" title=\":open_book:\" class=\"emoji\" alt=\":open_book:\" loading=\"lazy\" width=\"20\" height=\"20\"> <strong>Get to know the community</strong> by <a href=\"/latest\">browsing discussions</a> that are already happening here. When you find a post interesting, informative, or entertaining, use the <img src=\"https://pdx.tattooer.directory/images/emoji/twitter/heart.png?v=15\" title=\":heart:\" class=\"emoji\" alt=\":heart:\" loading=\"lazy\" width=\"20\" height=\"20\"> to show your appreciation or support!</p>\n<p><img src=\"https://pdx.tattooer.directory/images/emoji/twitter/handshake.png?v=15\" title=\":handshake:\" class=\"emoji\" alt=\":handshake:\" loading=\"lazy\" width=\"20\" height=\"20\"> <strong>Contribute</strong> by commenting, sharing your own perspective, asking questions, or offering feedback in the discussion. Before replying or starting new topics, please review the <a href=\"/faq\">Community Guidelines</a>.</p>\n<blockquote>\n<p>If you need help or have a suggestion, feel free to ask in <a class=\"hashtag-cooked\" href=\"/c/site-feedback/2\" data-type=\"category\" data-slug=\"site-feedback\" data-id=\"2\" data-style-type=\"emoji\" data-emoji=\"thought_balloon\"><span class=\"hashtag-icon-placeholder\"><svg class=\"fa d-icon d-icon-square-full svg-icon svg-node\"><use href=\"#square-full\"></use></svg></span><span>Site Feedback</span></a> or <a href=\"/about\">contact the admins</a>.</p>\n</blockquote>",
+            "post_number": 1,
+            "post_type": 1,
+            "posts_count": 1,
+            "updated_at": "2026-08-26T19:51:22.382Z",
+            "reply_count": 0,
+            "reply_to_post_number": null,
+            "quote_count": 0,
+            "incoming_link_count": 0,
+            "reads": 1,
+            "readers_count": 0,
+            "score": 0.2,
+            "yours": false,
+            "topic_id": 5,
+            "topic_slug": "welcome-to-pdx-tattooer-directory",
+            "display_username": "system",
+            "primary_group_name": null,
+            "flair_name": null,
+            "flair_url": null,
+            "flair_bg_color": null,
+            "flair_color": null,
+            "flair_group_id": null,
+            "badges_granted": [],
+            "version": 2,
+            "can_edit": false,
+            "can_delete": false,
+            "can_recover": false,
+            "can_see_hidden_post": false,
+            "can_wiki": false,
+            "read": true,
+            "user_title": null,
+            "bookmarked": false,
+            "actions_summary": [],
+            "moderator": true,
+            "admin": true,
+            "staff": true,
+            "user_id": -1,
+            "hidden": false,
+            "trust_level": 4,
+            "deleted_at": null,
+            "user_deleted": false,
+            "edit_reason": null,
+            "can_view_edit_history": true,
+            "wiki": false,
+            "post_url": "/t/welcome-to-pdx-tattooer-directory/5/1",
+            "reactions": [],
+            "current_user_reaction": null,
+            "reaction_users_count": 0,
+            "current_user_used_main_reaction": false,
+            "can_accept_answer": false,
+            "can_unaccept_answer": false,
+            "accepted_answer": false,
+            "topic_accepted_answer": null,
+            "can_vote": false
+          }
+        ],
+        "stream": [
+          6
+        ]
+      },
+      "timeline_lookup": [
+        [
+          1,
+          15
+        ]
+      ],
+      "suggested_topics": [],
+      "tags": [],
+      "tags_descriptions": {},
+      "fancy_title": "Welcome to PDX Tattooer Directory! :wave:",
+      "id": 5,
+      "title": "Welcome to PDX Tattooer Directory! :wave:",
+      "posts_count": 1,
+      "created_at": "2026-08-26T18:39:28.038Z",
+      "views": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "last_posted_at": "2026-08-26T18:39:28.163Z",
+      "visible": true,
+      "closed": false,
+      "archived": false,
+      "has_summary": false,
+      "archetype": "regular",
+      "slug": "welcome-to-pdx-tattooer-directory",
+      "category_id": 4,
+      "word_count": 129,
+      "deleted_at": null,
+      "user_id": -1,
+      "featured_link": null,
+      "pinned_globally": true,
+      "pinned_at": "2026-08-26T18:39:28.322Z",
+      "pinned_until": null,
+      "image_url": null,
+      "slow_mode_seconds": 0,
+      "draft": null,
+      "draft_key": "topic_5",
+      "draft_sequence": null,
+      "unpinned": null,
+      "pinned": true,
+      "current_post_number": 1,
+      "highest_post_number": 1,
+      "deleted_by": null,
+      "actions_summary": [
+        {
+          "id": 4,
+          "count": 0,
+          "hidden": false,
+          "can_act": false
+        },
+        {
+          "id": 8,
+          "count": 0,
+          "hidden": false,
+          "can_act": false
+        },
+        {
+          "id": 10,
+          "count": 0,
+          "hidden": false,
+          "can_act": false
+        },
+        {
+          "id": 7,
+          "count": 0,
+          "hidden": false,
+          "can_act": false
+        }
+      ],
+      "chunk_size": 20,
+      "bookmarked": false,
+      "topic_timer": null,
+      "unicode_title": "Welcome to PDX Tattooer Directory! 👋",
+      "message_bus_last_id": 0,
+      "participant_count": 1,
+      "show_read_indicator": false,
+      "thumbnails": null,
+      "slow_mode_enabled_until": null,
+      "valid_reactions": [
+        "heart",
+        "+1",
+        "laughing",
+        "open_mouth",
+        "clap",
+        "confetti_ball",
+        "hugs"
+      ],
+      "has_accepted_answer": false,
+      "can_create_shared_issue": false,
+      "shared_issue_visible": false,
+      "can_vote": false,
+      "vote_count": 0,
+      "user_voted": false,
+      "discourse_zendesk_plugin_zendesk_id": null,
+      "discourse_zendesk_plugin_zendesk_url": "https://your-url.zendesk.com/agent/tickets/",
+      "details": {
+        "can_edit": false,
+        "notification_level": 1,
+        "participants": [
+          {
+            "id": -1,
+            "username": "system",
+            "name": "system",
+            "avatar_template": "/user_avatar/pdx.tattooer.directory/system/{size}/5_2.png",
+            "post_count": 1,
+            "primary_group_name": null,
+            "flair_name": null,
+            "flair_url": null,
+            "flair_color": null,
+            "flair_bg_color": null,
+            "flair_group_id": null,
+            "admin": true,
+            "moderator": true,
+            "trust_level": 4
+          }
+        ],
+        "created_by": {
+          "id": -1,
+          "username": "system",
+          "name": "system",
+          "avatar_template": "/images/discourse-logo-sketch-small.png"
+        },
+        "last_poster": {
+          "id": -1,
+          "username": "system",
+          "name": "system",
+          "avatar_template": "/images/discourse-logo-sketch-small.png"
+        }
+      },
+      "bookmarks": []
+    }
+  ],
+  "settings": {
+    "title": "PDX Tattooer Directory",
+    "discourse_directory_title": "Portland Tattooer Directory",
+    "discourse_directory_description": "Hot tattooers in your area!",
+    "discourse_directory_entry_singular": "tattooer",
+    "discourse_directory_entry_plural": "tattooers"
+  },
+  "neighborhoods": [
+    {
+      "slug": "foster-powell",
+      "name": "Foster-Powell"
+    }
+  ],
+  "specializations": [
+    {
+      "slug": "black-grey",
+      "name": "Black & grey"
+    },
+    {
+      "slug": "bold-color",
+      "name": "Bold color"
+    },
+    {
+      "slug": "cartoon",
+      "name": "Cartoon"
+    },
+    {
+      "slug": "custom",
+      "name": "Custom"
+    },
+    {
+      "slug": "illustrative",
+      "name": "Illustrative"
+    },
+    {
+      "slug": "nature",
+      "name": "Nature"
+    },
+    {
+      "slug": "weird-fun",
+      "name": "Weird & fun"
+    }
+  ]
+}

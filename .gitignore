@@ -1,0 +1,6 @@
+node_modules/
+test-results/
+demo/state.json
+demo/session.json
+demo/*.log
+dist/*.zip
