@@ -1,0 +1,919 @@
+[
+  {
+    "width": 1440,
+    "cards": [
+      {
+        "name": "Damn Zippy",
+        "initials": "DZ",
+        "fits": true,
+        "textBox": {
+          "x": 570.078125,
+          "y": 543.734375,
+          "width": 75.84375,
+          "height": 96,
+          "top": 543.734375,
+          "right": 645.921875,
+          "bottom": 639.734375,
+          "left": 570.078125
+        },
+        "box": {
+          "x": 373,
+          "y": 529.234375,
+          "width": 470,
+          "height": 126,
+          "top": 529.234375,
+          "right": 843,
+          "bottom": 655.234375,
+          "left": 373
+        }
+      },
+      {
+        "name": "Dawn Davis",
+        "initials": "DD",
+        "fits": true,
+        "textBox": {
+          "x": 1063.625,
+          "y": 543.734375,
+          "width": 80.734375,
+          "height": 96,
+          "top": 543.734375,
+          "right": 1144.359375,
+          "bottom": 639.734375,
+          "left": 1063.625
+        },
+        "box": {
+          "x": 869,
+          "y": 529.234375,
+          "width": 470,
+          "height": 126,
+          "top": 529.234375,
+          "right": 1339,
+          "bottom": 655.234375,
+          "left": 869
+        }
+      },
+      {
+        "name": "Shannon Margo",
+        "initials": "SM",
+        "fits": true,
+        "textBox": {
+          "x": 565.90625,
+          "y": 984.09375,
+          "width": 84.171875,
+          "height": 96,
+          "top": 984.09375,
+          "right": 650.078125,
+          "bottom": 1080.09375,
+          "left": 565.90625
+        },
+        "box": {
+          "x": 373,
+          "y": 969.59375,
+          "width": 470,
+          "height": 126,
+          "top": 969.59375,
+          "right": 843,
+          "bottom": 1095.59375,
+          "left": 373
+        }
+      },
+      {
+        "name": "Fox Parade",
+        "initials": "FP",
+        "fits": true,
+        "textBox": {
+          "x": 1066.15625,
+          "y": 984.09375,
+          "width": 75.6875,
+          "height": 96,
+          "top": 984.09375,
+          "right": 1141.84375,
+          "bottom": 1080.09375,
+          "left": 1066.15625
+        },
+        "box": {
+          "x": 869,
+          "y": 969.59375,
+          "width": 470,
+          "height": 126,
+          "top": 969.59375,
+          "right": 1339,
+          "bottom": 1095.59375,
+          "left": 869
+        }
+      },
+      {
+        "name": "Kale",
+        "initials": "K",
+        "fits": true,
+        "textBox": {
+          "x": 587.15625,
+          "y": 1424.453125,
+          "width": 41.6875,
+          "height": 96,
+          "top": 1424.453125,
+          "right": 628.84375,
+          "bottom": 1520.453125,
+          "left": 587.15625
+        },
+        "box": {
+          "x": 373,
+          "y": 1409.953125,
+          "width": 470,
+          "height": 126,
+          "top": 1409.953125,
+          "right": 843,
+          "bottom": 1535.953125,
+          "left": 373
+        }
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "cards": [
+      {
+        "name": "Damn Zippy",
+        "initials": "DZ",
+        "fits": true,
+        "textBox": {
+          "x": 430.828125,
+          "y": 469.078125,
+          "width": 62.328125,
+          "height": 79,
+          "top": 469.078125,
+          "right": 493.15625,
+          "bottom": 548.078125,
+          "left": 430.828125
+        },
+        "box": {
+          "x": 289,
+          "y": 446.453125,
+          "width": 346,
+          "height": 126,
+          "top": 446.453125,
+          "right": 635,
+          "bottom": 572.453125,
+          "left": 289
+        }
+      },
+      {
+        "name": "Dawn Davis",
+        "initials": "DD",
+        "fits": true,
+        "textBox": {
+          "x": 800.828125,
+          "y": 469.078125,
+          "width": 66.328125,
+          "height": 79,
+          "top": 469.078125,
+          "right": 867.15625,
+          "bottom": 548.078125,
+          "left": 800.828125
+        },
+        "box": {
+          "x": 661,
+          "y": 446.453125,
+          "width": 346,
+          "height": 126,
+          "top": 446.453125,
+          "right": 1007,
+          "bottom": 572.453125,
+          "left": 661
+        }
+      },
+      {
+        "name": "Shannon Margo",
+        "initials": "SM",
+        "fits": true,
+        "textBox": {
+          "x": 427.421875,
+          "y": 909.4375,
+          "width": 69.15625,
+          "height": 79,
+          "top": 909.4375,
+          "right": 496.578125,
+          "bottom": 988.4375,
+          "left": 427.421875
+        },
+        "box": {
+          "x": 289,
+          "y": 886.8125,
+          "width": 346,
+          "height": 126,
+          "top": 886.8125,
+          "right": 635,
+          "bottom": 1012.8125,
+          "left": 289
+        }
+      },
+      {
+        "name": "Fox Parade",
+        "initials": "FP",
+        "fits": true,
+        "textBox": {
+          "x": 802.90625,
+          "y": 909.4375,
+          "width": 62.1875,
+          "height": 79,
+          "top": 909.4375,
+          "right": 865.09375,
+          "bottom": 988.4375,
+          "left": 802.90625
+        },
+        "box": {
+          "x": 661,
+          "y": 886.8125,
+          "width": 346,
+          "height": 126,
+          "top": 886.8125,
+          "right": 1007,
+          "bottom": 1012.8125,
+          "left": 661
+        }
+      },
+      {
+        "name": "Kale",
+        "initials": "K",
+        "fits": true,
+        "textBox": {
+          "x": 444.875,
+          "y": 1349.796875,
+          "width": 34.25,
+          "height": 79,
+          "top": 1349.796875,
+          "right": 479.125,
+          "bottom": 1428.796875,
+          "left": 444.875
+        },
+        "box": {
+          "x": 289,
+          "y": 1327.171875,
+          "width": 346,
+          "height": 126,
+          "top": 1327.171875,
+          "right": 635,
+          "bottom": 1453.171875,
+          "left": 289
+        }
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "cards": [
+      {
+        "name": "Damn Zippy",
+        "initials": "DZ",
+        "fits": true,
+        "textBox": {
+          "x": 334.453125,
+          "y": 516.140625,
+          "width": 53.09375,
+          "height": 67,
+          "top": 516.140625,
+          "right": 387.546875,
+          "bottom": 583.140625,
+          "left": 334.453125
+        },
+        "box": {
+          "x": 237,
+          "y": 487.640625,
+          "width": 248,
+          "height": 126,
+          "top": 487.640625,
+          "right": 485,
+          "bottom": 613.640625,
+          "left": 237
+        }
+      },
+      {
+        "name": "Dawn Davis",
+        "initials": "DD",
+        "fits": true,
+        "textBox": {
+          "x": 598.734375,
+          "y": 516.140625,
+          "width": 56.515625,
+          "height": 67,
+          "top": 516.140625,
+          "right": 655.25,
+          "bottom": 583.140625,
+          "left": 598.734375
+        },
+        "box": {
+          "x": 503,
+          "y": 487.640625,
+          "width": 248,
+          "height": 126,
+          "top": 487.640625,
+          "right": 751,
+          "bottom": 613.640625,
+          "left": 503
+        }
+      },
+      {
+        "name": "Shannon Margo",
+        "initials": "SM",
+        "fits": true,
+        "textBox": {
+          "x": 331.53125,
+          "y": 980.484375,
+          "width": 58.921875,
+          "height": 67,
+          "top": 980.484375,
+          "right": 390.453125,
+          "bottom": 1047.484375,
+          "left": 331.53125
+        },
+        "box": {
+          "x": 237,
+          "y": 951.984375,
+          "width": 248,
+          "height": 126,
+          "top": 951.984375,
+          "right": 485,
+          "bottom": 1077.984375,
+          "left": 237
+        }
+      },
+      {
+        "name": "Fox Parade",
+        "initials": "FP",
+        "fits": true,
+        "textBox": {
+          "x": 600.5,
+          "y": 980.484375,
+          "width": 52.984375,
+          "height": 67,
+          "top": 980.484375,
+          "right": 653.484375,
+          "bottom": 1047.484375,
+          "left": 600.5
+        },
+        "box": {
+          "x": 503,
+          "y": 951.984375,
+          "width": 248,
+          "height": 126,
+          "top": 951.984375,
+          "right": 751,
+          "bottom": 1077.984375,
+          "left": 503
+        }
+      },
+      {
+        "name": "Kale",
+        "initials": "K",
+        "fits": true,
+        "textBox": {
+          "x": 346.40625,
+          "y": 1412.84375,
+          "width": 29.1875,
+          "height": 67,
+          "top": 1412.84375,
+          "right": 375.59375,
+          "bottom": 1479.84375,
+          "left": 346.40625
+        },
+        "box": {
+          "x": 237,
+          "y": 1384.34375,
+          "width": 248,
+          "height": 126,
+          "top": 1384.34375,
+          "right": 485,
+          "bottom": 1510.34375,
+          "left": 237
+        }
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "width": 767,
+    "cards": [
+      {
+        "name": "Damn Zippy",
+        "initials": "DZ",
+        "fits": true,
+        "textBox": {
+          "x": 163.546875,
+          "y": 822.65625,
+          "width": 64.390625,
+          "height": 82,
+          "top": 822.65625,
+          "right": 227.9375,
+          "bottom": 904.65625,
+          "left": 163.546875
+        },
+        "box": {
+          "x": 17,
+          "y": 802.125,
+          "width": 357.5,
+          "height": 126,
+          "top": 802.125,
+          "right": 374.5,
+          "bottom": 928.125,
+          "left": 17
+        }
+      },
+      {
+        "name": "Dawn Davis",
+        "initials": "DD",
+        "fits": true,
+        "textBox": {
+          "x": 536.984375,
+          "y": 822.65625,
+          "width": 68.53125,
+          "height": 82,
+          "top": 822.65625,
+          "right": 605.515625,
+          "bottom": 904.65625,
+          "left": 536.984375
+        },
+        "box": {
+          "x": 392.5,
+          "y": 802.125,
+          "width": 357.5,
+          "height": 126,
+          "top": 802.125,
+          "right": 750,
+          "bottom": 928.125,
+          "left": 392.5
+        }
+      },
+      {
+        "name": "Shannon Margo",
+        "initials": "SM",
+        "fits": true,
+        "textBox": {
+          "x": 160.015625,
+          "y": 1255.015625,
+          "width": 71.453125,
+          "height": 82,
+          "top": 1255.015625,
+          "right": 231.46875,
+          "bottom": 1337.015625,
+          "left": 160.015625
+        },
+        "box": {
+          "x": 17,
+          "y": 1234.484375,
+          "width": 357.5,
+          "height": 126,
+          "top": 1234.484375,
+          "right": 374.5,
+          "bottom": 1360.484375,
+          "left": 17
+        }
+      },
+      {
+        "name": "Fox Parade",
+        "initials": "FP",
+        "fits": true,
+        "textBox": {
+          "x": 539.125,
+          "y": 1255.015625,
+          "width": 64.25,
+          "height": 82,
+          "top": 1255.015625,
+          "right": 603.375,
+          "bottom": 1337.015625,
+          "left": 539.125
+        },
+        "box": {
+          "x": 392.5,
+          "y": 1234.484375,
+          "width": 357.5,
+          "height": 126,
+          "top": 1234.484375,
+          "right": 750,
+          "bottom": 1360.484375,
+          "left": 392.5
+        }
+      },
+      {
+        "name": "Kale",
+        "initials": "K",
+        "fits": true,
+        "textBox": {
+          "x": 178.046875,
+          "y": 1687.375,
+          "width": 35.390625,
+          "height": 82,
+          "top": 1687.375,
+          "right": 213.4375,
+          "bottom": 1769.375,
+          "left": 178.046875
+        },
+        "box": {
+          "x": 17,
+          "y": 1666.84375,
+          "width": 357.5,
+          "height": 126,
+          "top": 1666.84375,
+          "right": 374.5,
+          "bottom": 1792.84375,
+          "left": 17
+        }
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "width": 430,
+    "cards": [
+      {
+        "name": "Damn Zippy",
+        "initials": "DZ",
+        "fits": true,
+        "textBox": {
+          "x": 179.328125,
+          "y": 790.28125,
+          "width": 71.328125,
+          "height": 90,
+          "top": 790.28125,
+          "right": 250.65625,
+          "bottom": 880.28125,
+          "left": 179.328125
+        },
+        "box": {
+          "x": 17,
+          "y": 780.40625,
+          "width": 396,
+          "height": 112,
+          "top": 780.40625,
+          "right": 413,
+          "bottom": 892.40625,
+          "left": 17
+        }
+      },
+      {
+        "name": "Dawn Davis",
+        "initials": "DD",
+        "fits": true,
+        "textBox": {
+          "x": 177.03125,
+          "y": 1208.640625,
+          "width": 75.921875,
+          "height": 90,
+          "top": 1208.640625,
+          "right": 252.953125,
+          "bottom": 1298.640625,
+          "left": 177.03125
+        },
+        "box": {
+          "x": 17,
+          "y": 1198.765625,
+          "width": 396,
+          "height": 112,
+          "top": 1198.765625,
+          "right": 413,
+          "bottom": 1310.765625,
+          "left": 17
+        }
+      },
+      {
+        "name": "Shannon Margo",
+        "initials": "SM",
+        "fits": true,
+        "textBox": {
+          "x": 175.421875,
+          "y": 1627,
+          "width": 79.15625,
+          "height": 90,
+          "top": 1627,
+          "right": 254.578125,
+          "bottom": 1717,
+          "left": 175.421875
+        },
+        "box": {
+          "x": 17,
+          "y": 1617.125,
+          "width": 396,
+          "height": 112,
+          "top": 1617.125,
+          "right": 413,
+          "bottom": 1729.125,
+          "left": 17
+        }
+      },
+      {
+        "name": "Fox Parade",
+        "initials": "FP",
+        "fits": true,
+        "textBox": {
+          "x": 179.40625,
+          "y": 2045.359375,
+          "width": 71.1875,
+          "height": 90,
+          "top": 2045.359375,
+          "right": 250.59375,
+          "bottom": 2135.359375,
+          "left": 179.40625
+        },
+        "box": {
+          "x": 17,
+          "y": 2035.484375,
+          "width": 396,
+          "height": 112,
+          "top": 2035.484375,
+          "right": 413,
+          "bottom": 2147.484375,
+          "left": 17
+        }
+      },
+      {
+        "name": "Kale",
+        "initials": "K",
+        "fits": true,
+        "textBox": {
+          "x": 195.390625,
+          "y": 2440.921875,
+          "width": 39.203125,
+          "height": 90,
+          "top": 2440.921875,
+          "right": 234.59375,
+          "bottom": 2530.921875,
+          "left": 195.390625
+        },
+        "box": {
+          "x": 17,
+          "y": 2431.046875,
+          "width": 396,
+          "height": 112,
+          "top": 2431.046875,
+          "right": 413,
+          "bottom": 2543.046875,
+          "left": 17
+        }
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "cards": [
+      {
+        "name": "Damn Zippy",
+        "initials": "DZ",
+        "fits": true,
+        "textBox": {
+          "x": 162.9375,
+          "y": 834.421875,
+          "width": 64.125,
+          "height": 82,
+          "top": 834.421875,
+          "right": 227.0625,
+          "bottom": 916.421875,
+          "left": 162.9375
+        },
+        "box": {
+          "x": 17,
+          "y": 820.75,
+          "width": 356,
+          "height": 112,
+          "top": 820.75,
+          "right": 373,
+          "bottom": 932.75,
+          "left": 17
+        }
+      },
+      {
+        "name": "Dawn Davis",
+        "initials": "DD",
+        "fits": true,
+        "textBox": {
+          "x": 160.875,
+          "y": 1252.78125,
+          "width": 68.25,
+          "height": 82,
+          "top": 1252.78125,
+          "right": 229.125,
+          "bottom": 1334.78125,
+          "left": 160.875
+        },
+        "box": {
+          "x": 17,
+          "y": 1239.109375,
+          "width": 356,
+          "height": 112,
+          "top": 1239.109375,
+          "right": 373,
+          "bottom": 1351.109375,
+          "left": 17
+        }
+      },
+      {
+        "name": "Shannon Margo",
+        "initials": "SM",
+        "fits": true,
+        "textBox": {
+          "x": 159.421875,
+          "y": 1671.140625,
+          "width": 71.15625,
+          "height": 82,
+          "top": 1671.140625,
+          "right": 230.578125,
+          "bottom": 1753.140625,
+          "left": 159.421875
+        },
+        "box": {
+          "x": 17,
+          "y": 1657.46875,
+          "width": 356,
+          "height": 112,
+          "top": 1657.46875,
+          "right": 373,
+          "bottom": 1769.46875,
+          "left": 17
+        }
+      },
+      {
+        "name": "Fox Parade",
+        "initials": "FP",
+        "fits": true,
+        "textBox": {
+          "x": 163,
+          "y": 2089.5,
+          "width": 63.984375,
+          "height": 82,
+          "top": 2089.5,
+          "right": 226.984375,
+          "bottom": 2171.5,
+          "left": 163
+        },
+        "box": {
+          "x": 17,
+          "y": 2075.828125,
+          "width": 356,
+          "height": 112,
+          "top": 2075.828125,
+          "right": 373,
+          "bottom": 2187.828125,
+          "left": 17
+        }
+      },
+      {
+        "name": "Kale",
+        "initials": "K",
+        "fits": true,
+        "textBox": {
+          "x": 177.375,
+          "y": 2485.0625,
+          "width": 35.234375,
+          "height": 82,
+          "top": 2485.0625,
+          "right": 212.609375,
+          "bottom": 2567.0625,
+          "left": 177.375
+        },
+        "box": {
+          "x": 17,
+          "y": 2471.390625,
+          "width": 356,
+          "height": 112,
+          "top": 2471.390625,
+          "right": 373,
+          "bottom": 2583.390625,
+          "left": 17
+        }
+      }
+    ],
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "cards": [
+      {
+        "name": "Damn Zippy",
+        "initials": "DZ",
+        "fits": true,
+        "textBox": {
+          "x": 133.453125,
+          "y": 842.25,
+          "width": 53.09375,
+          "height": 67,
+          "top": 842.25,
+          "right": 186.546875,
+          "bottom": 909.25,
+          "left": 133.453125
+        },
+        "box": {
+          "x": 17,
+          "y": 820.75,
+          "width": 286,
+          "height": 112,
+          "top": 820.75,
+          "right": 303,
+          "bottom": 932.75,
+          "left": 17
+        }
+      },
+      {
+        "name": "Dawn Davis",
+        "initials": "DD",
+        "fits": true,
+        "textBox": {
+          "x": 131.734375,
+          "y": 1292.59375,
+          "width": 56.515625,
+          "height": 67,
+          "top": 1292.59375,
+          "right": 188.25,
+          "bottom": 1359.59375,
+          "left": 131.734375
+        },
+        "box": {
+          "x": 17,
+          "y": 1271.09375,
+          "width": 286,
+          "height": 112,
+          "top": 1271.09375,
+          "right": 303,
+          "bottom": 1383.09375,
+          "left": 17
+        }
+      },
+      {
+        "name": "Shannon Margo",
+        "initials": "SM",
+        "fits": true,
+        "textBox": {
+          "x": 130.53125,
+          "y": 1710.953125,
+          "width": 58.921875,
+          "height": 67,
+          "top": 1710.953125,
+          "right": 189.453125,
+          "bottom": 1777.953125,
+          "left": 130.53125
+        },
+        "box": {
+          "x": 17,
+          "y": 1689.453125,
+          "width": 286,
+          "height": 112,
+          "top": 1689.453125,
+          "right": 303,
+          "bottom": 1801.453125,
+          "left": 17
+        }
+      },
+      {
+        "name": "Fox Parade",
+        "initials": "FP",
+        "fits": true,
+        "textBox": {
+          "x": 133.5,
+          "y": 2129.3125,
+          "width": 52.984375,
+          "height": 67,
+          "top": 2129.3125,
+          "right": 186.484375,
+          "bottom": 2196.3125,
+          "left": 133.5
+        },
+        "box": {
+          "x": 17,
+          "y": 2107.8125,
+          "width": 286,
+          "height": 112,
+          "top": 2107.8125,
+          "right": 303,
+          "bottom": 2219.8125,
+          "left": 17
+        }
+      },
+      {
+        "name": "Kale",
+        "initials": "K",
+        "fits": true,
+        "textBox": {
+          "x": 145.40625,
+          "y": 2547.671875,
+          "width": 29.1875,
+          "height": 67,
+          "top": 2547.671875,
+          "right": 174.59375,
+          "bottom": 2614.671875,
+          "left": 145.40625
+        },
+        "box": {
+          "x": 17,
+          "y": 2526.171875,
+          "width": 286,
+          "height": 112,
+          "top": 2526.171875,
+          "right": 303,
+          "bottom": 2638.171875,
+          "left": 17
+        }
+      }
+    ],
+    "overflow": false
+  }
+]

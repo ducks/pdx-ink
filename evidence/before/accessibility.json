@@ -1,0 +1,1647 @@
+[
+  {
+    "device": "desktop",
+    "colorScheme": "light",
+    "name": "homepage",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              ".directory-hero__eyebrow"
+            ],
+            "html": "<p class=\"directory-hero__eyebrow\">PDX Tattooer Directory</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 10.4pt (13.9296px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".directory-kind-nav__link--active"
+            ],
+            "html": "<a class=\"directory-kind-nav__link directory-kind-nav__link--active\" href=\"/directory?kind=people&amp;view=list\" aria-current=\"page\">\n        Tattooers\n      </a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.89 (foreground color: #0088cc, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".directory-results__count"
+            ],
+            "html": "<p class=\"directory-results__count\">5 results</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "a[href$=\"damn-zippy\"] > .directory-card__body > .directory-card__kind"
+            ],
+            "html": "<p class=\"directory-card__kind\">\n        tattooer\n      </p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 10.4pt (13.9296px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "a[href$=\"dawn-davis\"] > .directory-card__body > .directory-card__kind"
+            ],
+            "html": "<p class=\"directory-card__kind\">\n        tattooer\n      </p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 10.4pt (13.9296px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "article:nth-child(3) > .directory-card__link > .directory-card__body > .directory-card__kind"
+            ],
+            "html": "<p class=\"directory-card__kind\">\n        tattooer\n      </p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 10.4pt (13.9296px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "a[href$=\"fox-parade\"] > .directory-card__body > .directory-card__kind"
+            ],
+            "html": "<p class=\"directory-card__kind\">\n        tattooer\n      </p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 10.4pt (13.9296px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "a[href$=\"kale\"] > .directory-card__body > .directory-card__kind"
+            ],
+            "html": "<p class=\"directory-card__kind\">\n        tattooer\n      </p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 10.4pt (13.9296px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "a[href$=\"directory\"]"
+            ],
+            "html": "<a href=\"/directory\">Portland Tattooer Directory</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.89 (foreground color: #0088cc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "a[href$=\"removal\"]"
+            ],
+            "html": "<a href=\"/directory/removal\">Request a correction or removal</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.89 (foreground color: #0088cc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      "color-contrast"
+    ],
+    "palette": {
+      "foreground": "rgb(34, 34, 34)",
+      "background": "rgb(255, 255, 255)"
+    }
+  },
+  {
+    "device": "desktop",
+    "colorScheme": "light",
+    "name": "topic",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              ".relative-date"
+            ],
+            "html": "<span class=\"relative-date\" title=\"Aug 26, 2026 6:39 pm\" data-time=\"1787769568163\" data-format=\"tiny\">16d</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "a[href$=\"account\"]"
+            ],
+            "html": "<a href=\"/my/preferences/account\">your profile</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.89 (foreground color: #0088cc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "p:nth-child(4) > a[href$=\"latest\"]"
+            ],
+            "html": "<a href=\"/latest\">browsing discussions</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.89 (foreground color: #0088cc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "a[href$=\"faq\"]"
+            ],
+            "html": "<a href=\"/faq\">Community Guidelines</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.89 (foreground color: #0088cc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "a[href$=\"about\"]"
+            ],
+            "html": "<a href=\"/about\">contact the admins</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.69 (foreground color: #0088cc, background color: #f9f9f9, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".powered-by-discourse__content > span:nth-child(2)"
+            ],
+            "html": "<span>Powered by Discourse</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 10.4pt (13.9296px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      },
+      {
+        "id": "nested-interactive",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              "#toggle-current-user"
+            ],
+            "html": "<button class=\"btn no-text icon btn-flat\" id=\"toggle-current-user\" title=\"Notifications and account\" aria-label=\"Notifications and account\" aria-haspopup=\"true\" type=\"button\">",
+            "summary": "Fix any of the following:\n  Element has focusable descendants"
+          }
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              ".badge-notification"
+            ],
+            "html": "<a href=\"#\" class=\"badge-notification unread-notifications\" title=\"2 unseen notifications\" aria-label=\"Notifications\">\n      2\n    </a>",
+            "summary": "Fix any of the following:\n  Target has insufficient size (21.1px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+          },
+          {
+            "target": [
+              ".badge-category__wrapper"
+            ],
+            "html": "<a class=\"badge-category__wrapper \" style=\"--category-badge-color: #25AAE2;--category-badge-text-color: #FFFFFF;\" href=\"/c/general/4\">",
+            "summary": "Fix any of the following:\n  Target has insufficient size (66.1px by 19.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 20.8px instead of at least 24px."
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      "aria-prohibited-attr",
+      "aria-required-children",
+      "color-contrast"
+    ],
+    "palette": {
+      "foreground": "rgb(34, 34, 34)",
+      "background": "rgba(0, 0, 0, 0)"
+    }
+  },
+  {
+    "device": "desktop",
+    "colorScheme": "light",
+    "name": "community",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              "a[aria-current=\"page\"]"
+            ],
+            "html": "<a href=\"/latest\" class=\"active\" aria-current=\"page\">\n<!---->    Latest\n  </a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.89 (foreground color: #0088cc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".raw-link"
+            ],
+            "html": "<a href=\"/t/welcome-to-pdx-tattooer-directory/5/1\" data-topic-id=\"5\" class=\"title raw-link raw-topic-link\">Welcome to PDX Tattooer Directory! <img width=\"20\" height=\"20\" src=\"/images/emoji/twitter/wave.png?v=15\" title=\"wave\" alt=\"wave\" class=\"emoji\"><span class=\"sr-only\">&nbsp;read</span></a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 13.8pt (18.3792px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".powered-by-discourse__content > span:nth-child(2)"
+            ],
+            "html": "<span>Powered by Discourse</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 10.4pt (13.9296px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      },
+      {
+        "id": "nested-interactive",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              "#toggle-current-user"
+            ],
+            "html": "<button class=\"btn no-text icon btn-flat\" id=\"toggle-current-user\" title=\"Notifications and account\" aria-label=\"Notifications and account\" aria-haspopup=\"true\" type=\"button\">",
+            "summary": "Fix any of the following:\n  Element has focusable descendants"
+          }
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              ".badge-notification"
+            ],
+            "html": "<a href=\"#\" class=\"badge-notification unread-notifications\" title=\"2 unseen notifications\" aria-label=\"Notifications\">\n      2\n    </a>",
+            "summary": "Fix any of the following:\n  Target has insufficient size (21.1px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+          },
+          {
+            "target": [
+              ".topic-status"
+            ],
+            "html": "<a href=\"\" title=\"This topic is unpinned for you; it will display in regular order\" class=\"topic-status --unpinned pin-toggle-button\">",
+            "summary": "Fix any of the following:\n  Target has insufficient size (13.6px by 13.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      "aria-prohibited-attr",
+      "color-contrast"
+    ],
+    "palette": {
+      "foreground": "rgb(34, 34, 34)",
+      "background": "rgba(0, 0, 0, 0)"
+    }
+  },
+  {
+    "device": "desktop",
+    "colorScheme": "light",
+    "name": "search",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              ".topic-title > span"
+            ],
+            "html": "<span>\n            <span class=\"search-highlight\">Welcome</span> to PDX Tattooer Directory! <img width=\"20\" height=\"20\" src=\"/images/emoji/twitter/wave.png?v=15\" title=\"wave\" alt=\"wave\" class=\"emoji\">\n          </span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 13.8pt (18.3792px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".search-highlight"
+            ],
+            "html": "<span class=\"search-highlight\">Welcome</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 13.8pt (18.3792px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".blurb > span:nth-child(2)"
+            ],
+            "html": "<span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".powered-by-discourse__content > span:nth-child(2)"
+            ],
+            "html": "<span>Powered by Discourse</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 10.4pt (13.9296px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              "a[href$=\"system\"]"
+            ],
+            "html": "<a href=\"/u/system\" data-user-card=\"system\">\n      <img alt=\"\" width=\"48\" height=\"48\" src=\"/images/discourse-logo-sketch-small.png\" class=\"avatar\" title=\"system\">\n    </a>",
+            "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        ]
+      },
+      {
+        "id": "nested-interactive",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              "#toggle-current-user"
+            ],
+            "html": "<button class=\"btn no-text icon btn-flat\" id=\"toggle-current-user\" title=\"Notifications and account\" aria-label=\"Notifications and account\" aria-haspopup=\"true\" type=\"button\">",
+            "summary": "Fix any of the following:\n  Element has focusable descendants"
+          }
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              ".badge-notification"
+            ],
+            "html": "<a href=\"#\" class=\"badge-notification unread-notifications\" title=\"2 unseen notifications\" aria-label=\"Notifications\">\n      2\n    </a>",
+            "summary": "Fix any of the following:\n  Target has insufficient size (21.1px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      "aria-prohibited-attr",
+      "color-contrast"
+    ],
+    "palette": {
+      "foreground": "rgb(34, 34, 34)",
+      "background": "rgba(0, 0, 0, 0)"
+    }
+  },
+  {
+    "device": "desktop",
+    "colorScheme": "light",
+    "name": "profile",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              ".created-at:nth-child(1)"
+            ],
+            "html": "<dt class=\"created-at\">Joined</dt>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".last-posted-at:nth-child(1)"
+            ],
+            "html": "<dt class=\"last-posted-at\">Last Post</dt>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".profile-view-count:nth-child(1)"
+            ],
+            "html": "<dt class=\"profile-view-count\">Views</dt>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".trust-level:nth-child(1)"
+            ],
+            "html": "<dt class=\"trust-level\">Trust Level</dt>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".groups:nth-child(1)"
+            ],
+            "html": "<dt class=\"groups\">Group</dt>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "#ember109"
+            ],
+            "html": "<a id=\"ember109\" class=\"ember-view group-link\" href=\"/g/moderators\">moderators</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.89 (foreground color: #0088cc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".stats-days-visited > .user-stat > .label"
+            ],
+            "html": "<span class=\"label\">\n    <!---->\n    days visited\n  </span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".stats-time-read > .user-stat > .label"
+            ],
+            "html": "<span class=\"label\">\n    <!---->\n    read time\n  </span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".stats-topics-entered > .user-stat > .label"
+            ],
+            "html": "<span class=\"label\">\n    <!---->\n    topics viewed\n  </span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".stats-posts-read > .user-stat > .label"
+            ],
+            "html": "<span class=\"label\">\n    <!---->\n    posts read\n  </span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "#ember115 > .user-stat > .label"
+            ],
+            "html": "<span class=\"label\">\n    <svg class=\"fa d-icon d-icon-heart svg-icon fa-width-auto svg-string\" width=\"1em\" height=\"1em\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><use href=\"#heart\"></use></svg>\n    given\n  </span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".stats-likes-received > .user-stat > .label"
+            ],
+            "html": "<span class=\"label\">\n    <svg class=\"fa d-icon d-icon-heart svg-icon fa-width-auto svg-string\" width=\"1em\" height=\"1em\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><use href=\"#heart\"></use></svg>\n    received\n  </span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "#ember116 > .user-stat > .label"
+            ],
+            "html": "<span class=\"label\">\n    <!---->\n    topics created\n  </span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "#ember117 > .user-stat > .label"
+            ],
+            "html": "<span class=\"label\">\n    <!---->\n    post created\n  </span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "span[data-time=\"1787769568038\"]"
+            ],
+            "html": "<span class=\"relative-date\" data-time=\"1787769568038\" data-format=\"tiny\">16d</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".topics-section > ul > li:nth-child(1) > a"
+            ],
+            "html": "<a href=\"/t/welcome-to-pdx-tattooer-directory/5\">Welcome to PDX Tattooer Directory! <img width=\"20\" height=\"20\" src=\"/images/emoji/twitter/wave.png?v=15\" title=\"wave\" alt=\"wave\" class=\"emoji\"></a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.89 (foreground color: #0088cc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "span[data-time=\"1784959096326\"]"
+            ],
+            "html": "<span class=\"relative-date\" data-time=\"1784959096326\" data-format=\"tiny\">Jul 25</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".topics-section > ul > li:nth-child(2) > a"
+            ],
+            "html": "<a href=\"/t/about-the-general-category/3\">About the General category</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.89 (foreground color: #0088cc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "span[data-time=\"1784959096038\"]"
+            ],
+            "html": "<span class=\"relative-date\" data-time=\"1784959096038\" data-format=\"tiny\">Jul 25</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".topics-section > ul > li:nth-child(3) > a"
+            ],
+            "html": "<a href=\"/t/about-the-site-feedback-category/1\">About the Site Feedback category</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.89 (foreground color: #0088cc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "th:nth-child(2)"
+            ],
+            "html": "<th class=\"topic-count\">Topics</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "th:nth-child(3)"
+            ],
+            "html": "<th class=\"reply-count\">Replies</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".powered-by-discourse__content > span:nth-child(2)"
+            ],
+            "html": "<span>Powered by Discourse</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 10.4pt (13.9296px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      "aria-prohibited-attr",
+      "color-contrast",
+      "nested-interactive",
+      "target-size"
+    ],
+    "palette": {
+      "foreground": "rgb(34, 34, 34)",
+      "background": "rgba(0, 0, 0, 0)"
+    }
+  },
+  {
+    "device": "desktop",
+    "colorScheme": "dark",
+    "name": "homepage",
+    "violations": [],
+    "incomplete": [
+      "color-contrast"
+    ],
+    "palette": {
+      "foreground": "rgb(221, 221, 221)",
+      "background": "rgb(34, 34, 34)"
+    }
+  },
+  {
+    "device": "desktop",
+    "colorScheme": "dark",
+    "name": "topic",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              "a[href$=\"about\"]"
+            ],
+            "html": "<a href=\"/about\">contact the admins</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.58 (foreground color: #099dd7, background color: #3c3c3c, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              "a[href$=\"account\"]"
+            ],
+            "html": "<a href=\"/my/preferences/account\">your profile</a>",
+            "summary": "Fix any of the following:\n  The link has insufficient color contrast of 2.26:1 with the surrounding text. (Minimum contrast is 3:1, link text: #099dd7, surrounding text: #dddddd)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          {
+            "target": [
+              "p:nth-child(4) > a[href$=\"latest\"]"
+            ],
+            "html": "<a href=\"/latest\">browsing discussions</a>",
+            "summary": "Fix any of the following:\n  The link has insufficient color contrast of 2.26:1 with the surrounding text. (Minimum contrast is 3:1, link text: #099dd7, surrounding text: #dddddd)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          {
+            "target": [
+              "a[href$=\"faq\"]"
+            ],
+            "html": "<a href=\"/faq\">Community Guidelines</a>",
+            "summary": "Fix any of the following:\n  The link has insufficient color contrast of 2.26:1 with the surrounding text. (Minimum contrast is 3:1, link text: #099dd7, surrounding text: #dddddd)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          {
+            "target": [
+              "a[href$=\"about\"]"
+            ],
+            "html": "<a href=\"/about\">contact the admins</a>",
+            "summary": "Fix any of the following:\n  The link has insufficient color contrast of 2.26:1 with the surrounding text. (Minimum contrast is 3:1, link text: #099dd7, surrounding text: #dddddd)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          }
+        ]
+      },
+      {
+        "id": "nested-interactive",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              "#toggle-current-user"
+            ],
+            "html": "<button class=\"btn no-text icon btn-flat\" id=\"toggle-current-user\" title=\"Notifications and account\" aria-label=\"Notifications and account\" aria-haspopup=\"true\" type=\"button\">",
+            "summary": "Fix any of the following:\n  Element has focusable descendants"
+          }
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              ".badge-notification"
+            ],
+            "html": "<a href=\"#\" class=\"badge-notification unread-notifications\" title=\"2 unseen notifications\" aria-label=\"Notifications\">\n      2\n    </a>",
+            "summary": "Fix any of the following:\n  Target has insufficient size (21.1px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+          },
+          {
+            "target": [
+              ".badge-category__wrapper"
+            ],
+            "html": "<a class=\"badge-category__wrapper \" style=\"--category-badge-color: #25AAE2;--category-badge-text-color: #FFFFFF;\" href=\"/c/general/4\">",
+            "summary": "Fix any of the following:\n  Target has insufficient size (66.1px by 19.5px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 20.8px instead of at least 24px."
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      "aria-prohibited-attr",
+      "aria-required-children",
+      "color-contrast"
+    ],
+    "palette": {
+      "foreground": "rgb(221, 221, 221)",
+      "background": "rgba(0, 0, 0, 0)"
+    }
+  },
+  {
+    "device": "desktop",
+    "colorScheme": "dark",
+    "name": "community",
+    "violations": [
+      {
+        "id": "nested-interactive",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              "#toggle-current-user"
+            ],
+            "html": "<button class=\"btn no-text icon btn-flat\" id=\"toggle-current-user\" title=\"Notifications and account\" aria-label=\"Notifications and account\" aria-haspopup=\"true\" type=\"button\">",
+            "summary": "Fix any of the following:\n  Element has focusable descendants"
+          }
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              ".badge-notification"
+            ],
+            "html": "<a href=\"#\" class=\"badge-notification unread-notifications\" title=\"2 unseen notifications\" aria-label=\"Notifications\">\n      2\n    </a>",
+            "summary": "Fix any of the following:\n  Target has insufficient size (21.1px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+          },
+          {
+            "target": [
+              ".topic-status"
+            ],
+            "html": "<a href=\"\" title=\"This topic is unpinned for you; it will display in regular order\" class=\"topic-status --unpinned pin-toggle-button\">",
+            "summary": "Fix any of the following:\n  Target has insufficient size (13.6px by 13.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      "aria-prohibited-attr",
+      "color-contrast"
+    ],
+    "palette": {
+      "foreground": "rgb(221, 221, 221)",
+      "background": "rgba(0, 0, 0, 0)"
+    }
+  },
+  {
+    "device": "desktop",
+    "colorScheme": "dark",
+    "name": "search",
+    "violations": [
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              "a[href$=\"system\"]"
+            ],
+            "html": "<a href=\"/u/system\" data-user-card=\"system\">\n      <img alt=\"\" width=\"48\" height=\"48\" src=\"/images/discourse-logo-sketch-small.png\" class=\"avatar\" title=\"system\">\n    </a>",
+            "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        ]
+      },
+      {
+        "id": "nested-interactive",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              "#toggle-current-user"
+            ],
+            "html": "<button class=\"btn no-text icon btn-flat\" id=\"toggle-current-user\" title=\"Notifications and account\" aria-label=\"Notifications and account\" aria-haspopup=\"true\" type=\"button\">",
+            "summary": "Fix any of the following:\n  Element has focusable descendants"
+          }
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              ".badge-notification"
+            ],
+            "html": "<a href=\"#\" class=\"badge-notification unread-notifications\" title=\"2 unseen notifications\" aria-label=\"Notifications\">\n      2\n    </a>",
+            "summary": "Fix any of the following:\n  Target has insufficient size (21.1px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      "aria-prohibited-attr",
+      "color-contrast"
+    ],
+    "palette": {
+      "foreground": "rgb(221, 221, 221)",
+      "background": "rgba(0, 0, 0, 0)"
+    }
+  },
+  {
+    "device": "desktop",
+    "colorScheme": "dark",
+    "name": "profile",
+    "violations": [],
+    "incomplete": [
+      "aria-prohibited-attr",
+      "color-contrast",
+      "nested-interactive",
+      "target-size"
+    ],
+    "palette": {
+      "foreground": "rgb(221, 221, 221)",
+      "background": "rgba(0, 0, 0, 0)"
+    }
+  },
+  {
+    "device": "mobile",
+    "colorScheme": "light",
+    "name": "homepage",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              ".directory-hero__eyebrow"
+            ],
+            "html": "<p class=\"directory-hero__eyebrow\">PDX Tattooer Directory</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 10.4pt (13.9296px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".directory-kind-nav__link--active"
+            ],
+            "html": "<a class=\"directory-kind-nav__link directory-kind-nav__link--active\" href=\"/directory?kind=people&amp;view=list\" aria-current=\"page\">\n        Tattooers\n      </a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.89 (foreground color: #0088cc, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".directory-results__count"
+            ],
+            "html": "<p class=\"directory-results__count\">5 results</p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "a[href$=\"damn-zippy\"] > .directory-card__body > .directory-card__kind"
+            ],
+            "html": "<p class=\"directory-card__kind\">\n        tattooer\n      </p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 10.4pt (13.9296px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "a[href$=\"dawn-davis\"] > .directory-card__body > .directory-card__kind"
+            ],
+            "html": "<p class=\"directory-card__kind\">\n        tattooer\n      </p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 10.4pt (13.9296px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "article:nth-child(3) > .directory-card__link > .directory-card__body > .directory-card__kind"
+            ],
+            "html": "<p class=\"directory-card__kind\">\n        tattooer\n      </p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 10.4pt (13.9296px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "a[href$=\"fox-parade\"] > .directory-card__body > .directory-card__kind"
+            ],
+            "html": "<p class=\"directory-card__kind\">\n        tattooer\n      </p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 10.4pt (13.9296px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "a[href$=\"kale\"] > .directory-card__body > .directory-card__kind"
+            ],
+            "html": "<p class=\"directory-card__kind\">\n        tattooer\n      </p>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 10.4pt (13.9296px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "a[href$=\"directory\"]"
+            ],
+            "html": "<a href=\"/directory\">Portland Tattooer Directory</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.89 (foreground color: #0088cc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "a[href$=\"removal\"]"
+            ],
+            "html": "<a href=\"/directory/removal\">Request a correction or removal</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.89 (foreground color: #0088cc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      "color-contrast"
+    ],
+    "palette": {
+      "foreground": "rgb(34, 34, 34)",
+      "background": "rgb(255, 255, 255)"
+    }
+  },
+  {
+    "device": "mobile",
+    "colorScheme": "light",
+    "name": "topic",
+    "violations": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": [
+          {
+            "target": [
+              "#ember113"
+            ],
+            "html": "<button class=\"btn no-text fk-d-menu__trigger topic-footer-mobile-dropdown-trigger topic-footer-button btn-default\" aria-expanded=\"false\" data-identifier=\"topic-footer-mobile-dropdown\" data-trigger=\"\" type=\"button\" id=\"ember113\">",
+            "summary": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          },
+          {
+            "target": [
+              "#ember114"
+            ],
+            "html": "<button class=\"btn btn-default btn-icon-text fk-d-menu__trigger pinned-options-trigger btn-default pinned-options-trigger-btn\" data-identifier=\"pinned-options\" data-trigger=\"\" aria-expanded=\"false\" id=\"ember114\">",
+            "summary": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              ".relative-date"
+            ],
+            "html": "<span class=\"relative-date\" title=\"Aug 26, 2026 6:39 pm\" data-time=\"1787769568163\" data-format=\"tiny\">16d</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 10.4pt (13.9296px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "a[href$=\"account\"]"
+            ],
+            "html": "<a href=\"/my/preferences/account\">your profile</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.89 (foreground color: #0088cc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "a[href$=\"latest\"]"
+            ],
+            "html": "<a href=\"/latest\">browsing discussions</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.89 (foreground color: #0088cc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "a[href$=\"faq\"]"
+            ],
+            "html": "<a href=\"/faq\">Community Guidelines</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.89 (foreground color: #0088cc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "a[href$=\"about\"]"
+            ],
+            "html": "<a href=\"/about\">contact the admins</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.69 (foreground color: #0088cc, background color: #f9f9f9, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".powered-by-discourse__content > span:nth-child(2)"
+            ],
+            "html": "<span>Powered by Discourse</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 10.4pt (13.9296px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      },
+      {
+        "id": "nested-interactive",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              "#toggle-current-user"
+            ],
+            "html": "<button class=\"btn no-text icon btn-flat\" id=\"toggle-current-user\" title=\"Notifications and account\" aria-label=\"Notifications and account\" aria-haspopup=\"true\" type=\"button\">",
+            "summary": "Fix any of the following:\n  Element has focusable descendants"
+          }
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              ".badge-notification"
+            ],
+            "html": "<a href=\"#\" class=\"badge-notification unread-notifications\" title=\"2 unseen notifications\" aria-label=\"Notifications\">\n      2\n    </a>",
+            "summary": "Fix any of the following:\n  Target has insufficient size (21.1px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      "aria-prohibited-attr",
+      "aria-required-children",
+      "color-contrast"
+    ],
+    "palette": {
+      "foreground": "rgb(34, 34, 34)",
+      "background": "rgba(0, 0, 0, 0)"
+    }
+  },
+  {
+    "device": "mobile",
+    "colorScheme": "light",
+    "name": "community",
+    "violations": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": [
+          {
+            "target": [
+              "#create-topic"
+            ],
+            "html": "<button class=\"btn no-text btn-icon d-combo-button-button btn-primary\" id=\"create-topic\" type=\"button\">",
+            "summary": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              ".raw-link"
+            ],
+            "html": "<a href=\"/t/welcome-to-pdx-tattooer-directory/5/1\" data-topic-id=\"5\" class=\"title raw-link raw-topic-link\">Welcome to PDX Tattooer Directory! <img width=\"20\" height=\"20\" src=\"/images/emoji/twitter/wave.png?v=15\" title=\"wave\" alt=\"wave\" class=\"emoji\"><span class=\"sr-only\">&nbsp;read</span></a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 13.8pt (18.3792px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".relative-date"
+            ],
+            "html": "<span class=\"relative-date\" data-time=\"1787769568163\" data-format=\"tiny\">16d</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 10.4pt (13.9296px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".powered-by-discourse__content > span:nth-child(2)"
+            ],
+            "html": "<span>Powered by Discourse</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 10.4pt (13.9296px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      },
+      {
+        "id": "nested-interactive",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              "#toggle-current-user"
+            ],
+            "html": "<button class=\"btn no-text icon btn-flat\" id=\"toggle-current-user\" title=\"Notifications and account\" aria-label=\"Notifications and account\" aria-haspopup=\"true\" type=\"button\">",
+            "summary": "Fix any of the following:\n  Element has focusable descendants"
+          }
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              ".badge-notification"
+            ],
+            "html": "<a href=\"#\" class=\"badge-notification unread-notifications\" title=\"2 unseen notifications\" aria-label=\"Notifications\">\n      2\n    </a>",
+            "summary": "Fix any of the following:\n  Target has insufficient size (21.1px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+          },
+          {
+            "target": [
+              ".topic-status"
+            ],
+            "html": "<a href=\"\" title=\"This topic is unpinned for you; it will display in regular order\" class=\"topic-status --unpinned pin-toggle-button\">",
+            "summary": "Fix any of the following:\n  Target has insufficient size (13.6px by 13.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      "aria-prohibited-attr",
+      "color-contrast",
+      "th-has-data-cells"
+    ],
+    "palette": {
+      "foreground": "rgb(34, 34, 34)",
+      "background": "rgba(0, 0, 0, 0)"
+    }
+  },
+  {
+    "device": "mobile",
+    "colorScheme": "light",
+    "name": "search",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              ".topic-title > span"
+            ],
+            "html": "<span>\n            <span class=\"search-highlight\">Welcome</span> to PDX Tattooer Directory! <img width=\"20\" height=\"20\" src=\"/images/emoji/twitter/wave.png?v=15\" title=\"wave\" alt=\"wave\" class=\"emoji\">\n          </span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 13.8pt (18.3792px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".search-highlight"
+            ],
+            "html": "<span class=\"search-highlight\">Welcome</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 13.8pt (18.3792px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".blurb > span:nth-child(2)"
+            ],
+            "html": "<span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".powered-by-discourse__content > span:nth-child(2)"
+            ],
+            "html": "<span>Powered by Discourse</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 10.4pt (13.9296px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              "a[href$=\"system\"]"
+            ],
+            "html": "<a href=\"/u/system\" data-user-card=\"system\">\n      <img alt=\"\" width=\"48\" height=\"48\" src=\"/images/discourse-logo-sketch-small.png\" class=\"avatar\" title=\"system\">\n    </a>",
+            "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        ]
+      },
+      {
+        "id": "nested-interactive",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              "#toggle-current-user"
+            ],
+            "html": "<button class=\"btn no-text icon btn-flat\" id=\"toggle-current-user\" title=\"Notifications and account\" aria-label=\"Notifications and account\" aria-haspopup=\"true\" type=\"button\">",
+            "summary": "Fix any of the following:\n  Element has focusable descendants"
+          }
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              ".badge-notification"
+            ],
+            "html": "<a href=\"#\" class=\"badge-notification unread-notifications\" title=\"2 unseen notifications\" aria-label=\"Notifications\">\n      2\n    </a>",
+            "summary": "Fix any of the following:\n  Target has insufficient size (21.1px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      "aria-prohibited-attr",
+      "color-contrast"
+    ],
+    "palette": {
+      "foreground": "rgb(34, 34, 34)",
+      "background": "rgba(0, 0, 0, 0)"
+    }
+  },
+  {
+    "device": "mobile",
+    "colorScheme": "light",
+    "name": "profile",
+    "violations": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              ".created-at:nth-child(1)"
+            ],
+            "html": "<dt class=\"created-at\">Joined</dt>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".last-posted-at:nth-child(1)"
+            ],
+            "html": "<dt class=\"last-posted-at\">Last Post</dt>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".profile-view-count:nth-child(1)"
+            ],
+            "html": "<dt class=\"profile-view-count\">Views</dt>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".trust-level:nth-child(1)"
+            ],
+            "html": "<dt class=\"trust-level\">Trust Level</dt>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".groups:nth-child(1)"
+            ],
+            "html": "<dt class=\"groups\">Group</dt>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.94 (foreground color: #808080, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "#ember99"
+            ],
+            "html": "<a id=\"ember99\" class=\"ember-view group-link\" href=\"/g/moderators\">moderators</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.89 (foreground color: #0088cc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".stats-days-visited > .user-stat > .label"
+            ],
+            "html": "<span class=\"label\">\n    <!---->\n    days visited\n  </span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".stats-time-read > .user-stat > .label"
+            ],
+            "html": "<span class=\"label\">\n    <!---->\n    read time\n  </span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".stats-topics-entered > .user-stat > .label"
+            ],
+            "html": "<span class=\"label\">\n    <!---->\n    topics viewed\n  </span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".stats-posts-read > .user-stat > .label"
+            ],
+            "html": "<span class=\"label\">\n    <!---->\n    posts read\n  </span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "#ember105 > .user-stat > .label"
+            ],
+            "html": "<span class=\"label\">\n    <svg class=\"fa d-icon d-icon-heart svg-icon fa-width-auto svg-string\" width=\"1em\" height=\"1em\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><use href=\"#heart\"></use></svg>\n    given\n  </span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".stats-likes-received > .user-stat > .label"
+            ],
+            "html": "<span class=\"label\">\n    <svg class=\"fa d-icon d-icon-heart svg-icon fa-width-auto svg-string\" width=\"1em\" height=\"1em\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><use href=\"#heart\"></use></svg>\n    received\n  </span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "#ember106 > .user-stat > .label"
+            ],
+            "html": "<span class=\"label\">\n    <!---->\n    topics created\n  </span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "#ember107 > .user-stat > .label"
+            ],
+            "html": "<span class=\"label\">\n    <!---->\n    post created\n  </span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "span[data-time=\"1787769568038\"]"
+            ],
+            "html": "<span class=\"relative-date\" data-time=\"1787769568038\" data-format=\"tiny\">16d</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".topics-section > ul > li:nth-child(1) > a"
+            ],
+            "html": "<a href=\"/t/welcome-to-pdx-tattooer-directory/5\">Welcome to PDX Tattooer Directory! <img width=\"20\" height=\"20\" src=\"/images/emoji/twitter/wave.png?v=15\" title=\"wave\" alt=\"wave\" class=\"emoji\"></a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.89 (foreground color: #0088cc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "span[data-time=\"1784959096326\"]"
+            ],
+            "html": "<span class=\"relative-date\" data-time=\"1784959096326\" data-format=\"tiny\">Jul 25</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".topics-section > ul > li:nth-child(2) > a"
+            ],
+            "html": "<a href=\"/t/about-the-general-category/3\">About the General category</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.89 (foreground color: #0088cc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "span[data-time=\"1784959096038\"]"
+            ],
+            "html": "<span class=\"relative-date\" data-time=\"1784959096038\" data-format=\"tiny\">Jul 25</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".topics-section > ul > li:nth-child(3) > a"
+            ],
+            "html": "<a href=\"/t/about-the-site-feedback-category/1\">About the Site Feedback category</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.89 (foreground color: #0088cc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "th:nth-child(2)"
+            ],
+            "html": "<th class=\"topic-count\">Topics</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              "th:nth-child(3)"
+            ],
+            "html": "<th class=\"reply-count\">Replies</th>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          {
+            "target": [
+              ".powered-by-discourse__content > span:nth-child(2)"
+            ],
+            "html": "<span>Powered by Discourse</span>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.15 (foreground color: #919191, background color: #ffffff, font size: 10.4pt (13.9296px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              "#ember101"
+            ],
+            "html": "<a id=\"ember101\" class=\"ember-view active\" href=\"/u/system/summary\">",
+            "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          },
+          {
+            "target": [
+              "#ember102"
+            ],
+            "html": "<a id=\"ember102\" class=\"ember-view\" href=\"/u/system/activity\">",
+            "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          },
+          {
+            "target": [
+              "#ember103"
+            ],
+            "html": "<a id=\"ember103\" class=\"ember-view\" href=\"/u/system/invited\">",
+            "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          },
+          {
+            "target": [
+              "#ember104"
+            ],
+            "html": "<a id=\"ember104\" class=\"ember-view\" href=\"/u/system/badges\">",
+            "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      "aria-prohibited-attr",
+      "color-contrast",
+      "nested-interactive",
+      "target-size"
+    ],
+    "palette": {
+      "foreground": "rgb(34, 34, 34)",
+      "background": "rgba(0, 0, 0, 0)"
+    }
+  },
+  {
+    "device": "mobile",
+    "colorScheme": "dark",
+    "name": "homepage",
+    "violations": [],
+    "incomplete": [
+      "color-contrast"
+    ],
+    "palette": {
+      "foreground": "rgb(221, 221, 221)",
+      "background": "rgb(34, 34, 34)"
+    }
+  },
+  {
+    "device": "mobile",
+    "colorScheme": "dark",
+    "name": "topic",
+    "violations": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": [
+          {
+            "target": [
+              "#ember113"
+            ],
+            "html": "<button class=\"btn no-text fk-d-menu__trigger topic-footer-mobile-dropdown-trigger topic-footer-button btn-default\" aria-expanded=\"false\" data-identifier=\"topic-footer-mobile-dropdown\" data-trigger=\"\" type=\"button\" id=\"ember113\">",
+            "summary": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          },
+          {
+            "target": [
+              "#ember114"
+            ],
+            "html": "<button class=\"btn btn-default btn-icon-text fk-d-menu__trigger pinned-options-trigger btn-default pinned-options-trigger-btn\" data-identifier=\"pinned-options\" data-trigger=\"\" aria-expanded=\"false\" id=\"ember114\">",
+            "summary": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        ]
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              "a[href$=\"about\"]"
+            ],
+            "html": "<a href=\"/about\">contact the admins</a>",
+            "summary": "Fix any of the following:\n  Element has insufficient color contrast of 3.58 (foreground color: #099dd7, background color: #3c3c3c, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        ]
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              "a[href$=\"account\"]"
+            ],
+            "html": "<a href=\"/my/preferences/account\">your profile</a>",
+            "summary": "Fix any of the following:\n  The link has insufficient color contrast of 2.26:1 with the surrounding text. (Minimum contrast is 3:1, link text: #099dd7, surrounding text: #dddddd)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          {
+            "target": [
+              "a[href$=\"latest\"]"
+            ],
+            "html": "<a href=\"/latest\">browsing discussions</a>",
+            "summary": "Fix any of the following:\n  The link has insufficient color contrast of 2.26:1 with the surrounding text. (Minimum contrast is 3:1, link text: #099dd7, surrounding text: #dddddd)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          {
+            "target": [
+              "a[href$=\"faq\"]"
+            ],
+            "html": "<a href=\"/faq\">Community Guidelines</a>",
+            "summary": "Fix any of the following:\n  The link has insufficient color contrast of 2.26:1 with the surrounding text. (Minimum contrast is 3:1, link text: #099dd7, surrounding text: #dddddd)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          },
+          {
+            "target": [
+              "a[href$=\"about\"]"
+            ],
+            "html": "<a href=\"/about\">contact the admins</a>",
+            "summary": "Fix any of the following:\n  The link has insufficient color contrast of 2.26:1 with the surrounding text. (Minimum contrast is 3:1, link text: #099dd7, surrounding text: #dddddd)\n  The link has no styling (such as underline) to distinguish it from the surrounding text"
+          }
+        ]
+      },
+      {
+        "id": "nested-interactive",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              "#toggle-current-user"
+            ],
+            "html": "<button class=\"btn no-text icon btn-flat\" id=\"toggle-current-user\" title=\"Notifications and account\" aria-label=\"Notifications and account\" aria-haspopup=\"true\" type=\"button\">",
+            "summary": "Fix any of the following:\n  Element has focusable descendants"
+          }
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              ".badge-notification"
+            ],
+            "html": "<a href=\"#\" class=\"badge-notification unread-notifications\" title=\"2 unseen notifications\" aria-label=\"Notifications\">\n      2\n    </a>",
+            "summary": "Fix any of the following:\n  Target has insufficient size (21.1px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      "aria-prohibited-attr",
+      "aria-required-children",
+      "color-contrast"
+    ],
+    "palette": {
+      "foreground": "rgb(221, 221, 221)",
+      "background": "rgba(0, 0, 0, 0)"
+    }
+  },
+  {
+    "device": "mobile",
+    "colorScheme": "dark",
+    "name": "community",
+    "violations": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": [
+          {
+            "target": [
+              "#create-topic"
+            ],
+            "html": "<button class=\"btn no-text btn-icon d-combo-button-button btn-primary\" id=\"create-topic\" type=\"button\">",
+            "summary": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element does not have an implicit (wrapped) <label>\n  Element does not have an explicit <label>\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        ]
+      },
+      {
+        "id": "nested-interactive",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              "#toggle-current-user"
+            ],
+            "html": "<button class=\"btn no-text icon btn-flat\" id=\"toggle-current-user\" title=\"Notifications and account\" aria-label=\"Notifications and account\" aria-haspopup=\"true\" type=\"button\">",
+            "summary": "Fix any of the following:\n  Element has focusable descendants"
+          }
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              ".badge-notification"
+            ],
+            "html": "<a href=\"#\" class=\"badge-notification unread-notifications\" title=\"2 unseen notifications\" aria-label=\"Notifications\">\n      2\n    </a>",
+            "summary": "Fix any of the following:\n  Target has insufficient size (21.1px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+          },
+          {
+            "target": [
+              ".topic-status"
+            ],
+            "html": "<a href=\"\" title=\"This topic is unpinned for you; it will display in regular order\" class=\"topic-status --unpinned pin-toggle-button\">",
+            "summary": "Fix any of the following:\n  Target has insufficient size (13.6px by 13.6px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      "aria-prohibited-attr",
+      "color-contrast",
+      "th-has-data-cells"
+    ],
+    "palette": {
+      "foreground": "rgb(221, 221, 221)",
+      "background": "rgba(0, 0, 0, 0)"
+    }
+  },
+  {
+    "device": "mobile",
+    "colorScheme": "dark",
+    "name": "search",
+    "violations": [
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              "a[href$=\"system\"]"
+            ],
+            "html": "<a href=\"/u/system\" data-user-card=\"system\">\n      <img alt=\"\" width=\"48\" height=\"48\" src=\"/images/discourse-logo-sketch-small.png\" class=\"avatar\" title=\"system\">\n    </a>",
+            "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        ]
+      },
+      {
+        "id": "nested-interactive",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              "#toggle-current-user"
+            ],
+            "html": "<button class=\"btn no-text icon btn-flat\" id=\"toggle-current-user\" title=\"Notifications and account\" aria-label=\"Notifications and account\" aria-haspopup=\"true\" type=\"button\">",
+            "summary": "Fix any of the following:\n  Element has focusable descendants"
+          }
+        ]
+      },
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              ".badge-notification"
+            ],
+            "html": "<a href=\"#\" class=\"badge-notification unread-notifications\" title=\"2 unseen notifications\" aria-label=\"Notifications\">\n      2\n    </a>",
+            "summary": "Fix any of the following:\n  Target has insufficient size (21.1px by 21px, should be at least 24px by 24px)\n  Target has insufficient space to its closest neighbors. Safe clickable space has a diameter of 21px instead of at least 24px."
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      "aria-prohibited-attr",
+      "color-contrast"
+    ],
+    "palette": {
+      "foreground": "rgb(221, 221, 221)",
+      "background": "rgba(0, 0, 0, 0)"
+    }
+  },
+  {
+    "device": "mobile",
+    "colorScheme": "dark",
+    "name": "profile",
+    "violations": [
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": [
+          {
+            "target": [
+              "#ember101"
+            ],
+            "html": "<a id=\"ember101\" class=\"ember-view active\" href=\"/u/system/summary\">",
+            "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          },
+          {
+            "target": [
+              "#ember102"
+            ],
+            "html": "<a id=\"ember102\" class=\"ember-view\" href=\"/u/system/activity\">",
+            "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          },
+          {
+            "target": [
+              "#ember103"
+            ],
+            "html": "<a id=\"ember103\" class=\"ember-view\" href=\"/u/system/invited\">",
+            "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          },
+          {
+            "target": [
+              "#ember104"
+            ],
+            "html": "<a id=\"ember104\" class=\"ember-view\" href=\"/u/system/badges\">",
+            "summary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        ]
+      }
+    ],
+    "incomplete": [
+      "aria-prohibited-attr",
+      "color-contrast",
+      "nested-interactive",
+      "target-size"
+    ],
+    "palette": {
+      "foreground": "rgb(221, 221, 221)",
+      "background": "rgba(0, 0, 0, 0)"
+    }
+  }
+]

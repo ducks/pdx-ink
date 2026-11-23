@@ -1,0 +1,8 @@
+{
+  "name": "PDX Editorial",
+  "component": true,
+  "authors": "PDX Tattooer Directory",
+  "theme_version": "20260911",
+  "minimum_discourse_version": "2026.8.0",
+  "description": "A staff-curated introduction and optional feature links on the community's Latest page."
+}

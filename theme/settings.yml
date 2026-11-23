@@ -1,0 +1,6 @@
+brand_short_name:
+  default: "PDX"
+  description: "Compact wordmark in the community header. The full accessible site name comes from Discourse's title setting."
+brand_descriptor:
+  default: "TATTOOER DIRECTORY"
+  description: "Second line of the community wordmark."

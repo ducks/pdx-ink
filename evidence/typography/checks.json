@@ -1,0 +1,362 @@
+[
+  {
+    "width": 1440,
+    "colorScheme": "light",
+    "route": "/directory",
+    "values": [
+      {
+        "selector": ".pdx-utility",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-footer strong",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-footer p",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-footer nav",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".directory-hero__title",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".directory-card__title",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".directory-card__title",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".directory-card__title",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".directory-card__title",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".directory-card__title",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".directory-filters button",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": "header wordmark",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      }
+    ],
+    "loaded": true,
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "colorScheme": "light",
+    "route": "/latest",
+    "values": [
+      {
+        "selector": ".pdx-utility",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-footer strong",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-footer p",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-footer nav",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-wordmark__city",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-editorial h1",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      }
+    ],
+    "loaded": true,
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "colorScheme": "dark",
+    "route": "/directory",
+    "values": [
+      {
+        "selector": ".pdx-utility",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-footer strong",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-footer p",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-footer nav",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".directory-hero__title",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".directory-card__title",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".directory-card__title",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".directory-card__title",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".directory-card__title",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".directory-card__title",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".directory-filters button",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": "header wordmark",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      }
+    ],
+    "loaded": true,
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "colorScheme": "dark",
+    "route": "/latest",
+    "values": [
+      {
+        "selector": ".pdx-utility",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-footer strong",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-footer p",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-footer nav",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-wordmark__city",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-editorial h1",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      }
+    ],
+    "loaded": true,
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "colorScheme": "light",
+    "route": "/directory",
+    "values": [
+      {
+        "selector": ".pdx-utility",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-footer strong",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-footer p",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-footer nav",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".directory-hero__title",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".directory-card__title",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".directory-card__title",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".directory-card__title",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".directory-card__title",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".directory-card__title",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".directory-filters button",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": "header wordmark",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      }
+    ],
+    "loaded": true,
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "colorScheme": "light",
+    "route": "/latest",
+    "values": [
+      {
+        "selector": ".pdx-utility",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-footer strong",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-footer p",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-footer nav",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-wordmark__city",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-editorial h1",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      }
+    ],
+    "loaded": true,
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "colorScheme": "dark",
+    "route": "/directory",
+    "values": [
+      {
+        "selector": ".pdx-utility",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-footer strong",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-footer p",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-footer nav",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".directory-hero__title",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".directory-card__title",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".directory-card__title",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".directory-card__title",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".directory-card__title",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".directory-card__title",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".directory-filters button",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": "header wordmark",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      }
+    ],
+    "loaded": true,
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "colorScheme": "dark",
+    "route": "/latest",
+    "values": [
+      {
+        "selector": ".pdx-utility",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-footer strong",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-footer p",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-footer nav",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-wordmark__city",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      },
+      {
+        "selector": ".pdx-editorial h1",
+        "family": "Barlow, Arial, Helvetica, sans-serif"
+      }
+    ],
+    "loaded": true,
+    "overflow": false
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "device": "desktop",
+    "mode": "dark",
+    "palette": "#151f1e",
+    "persisted": true
+  },
+  {
+    "device": "desktop",
+    "mode": "light",
+    "palette": "#f5f0e4",
+    "persisted": true
+  },
+  {
+    "device": "desktop",
+    "mode": "auto",
+    "palette": "#f5f0e4",
+    "persisted": true
+  },
+  {
+    "device": "mobile",
+    "mode": "dark",
+    "palette": "#151f1e",
+    "persisted": true
+  },
+  {
+    "device": "mobile",
+    "mode": "light",
+    "palette": "#f5f0e4",
+    "persisted": true
+  },
+  {
+    "device": "mobile",
+    "mode": "auto",
+    "palette": "#f5f0e4",
+    "persisted": true
+  }
+]

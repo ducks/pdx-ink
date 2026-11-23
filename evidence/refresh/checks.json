@@ -1,0 +1,162 @@
+[
+  {
+    "width": 1440,
+    "colorScheme": "light",
+    "name": "homepage",
+    "overflow": false,
+    "background": "rgb(255, 252, 249)",
+    "color": "rgb(48, 35, 38)"
+  },
+  {
+    "width": 1440,
+    "colorScheme": "light",
+    "name": "directory",
+    "overflow": false,
+    "background": "rgb(255, 252, 249)",
+    "color": "rgb(48, 35, 38)"
+  },
+  {
+    "width": 1440,
+    "colorScheme": "light",
+    "name": "shops",
+    "overflow": false,
+    "background": "rgb(255, 252, 249)",
+    "color": "rgb(48, 35, 38)"
+  },
+  {
+    "width": 1440,
+    "colorScheme": "light",
+    "name": "artist",
+    "overflow": false,
+    "background": "rgb(255, 252, 249)",
+    "color": "rgb(48, 35, 38)"
+  },
+  {
+    "width": 1440,
+    "colorScheme": "light",
+    "name": "community",
+    "overflow": false,
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(48, 35, 38)"
+  },
+  {
+    "width": 1440,
+    "colorScheme": "dark",
+    "name": "homepage",
+    "overflow": false,
+    "background": "rgb(32, 29, 36)",
+    "color": "rgb(247, 237, 228)"
+  },
+  {
+    "width": 1440,
+    "colorScheme": "dark",
+    "name": "directory",
+    "overflow": false,
+    "background": "rgb(32, 29, 36)",
+    "color": "rgb(247, 237, 228)"
+  },
+  {
+    "width": 1440,
+    "colorScheme": "dark",
+    "name": "shops",
+    "overflow": false,
+    "background": "rgb(32, 29, 36)",
+    "color": "rgb(247, 237, 228)"
+  },
+  {
+    "width": 1440,
+    "colorScheme": "dark",
+    "name": "artist",
+    "overflow": false,
+    "background": "rgb(32, 29, 36)",
+    "color": "rgb(247, 237, 228)"
+  },
+  {
+    "width": 1440,
+    "colorScheme": "dark",
+    "name": "community",
+    "overflow": false,
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(247, 237, 228)"
+  },
+  {
+    "width": 390,
+    "colorScheme": "light",
+    "name": "homepage",
+    "overflow": false,
+    "background": "rgb(255, 252, 249)",
+    "color": "rgb(48, 35, 38)"
+  },
+  {
+    "width": 390,
+    "colorScheme": "light",
+    "name": "directory",
+    "overflow": false,
+    "background": "rgb(255, 252, 249)",
+    "color": "rgb(48, 35, 38)"
+  },
+  {
+    "width": 390,
+    "colorScheme": "light",
+    "name": "shops",
+    "overflow": false,
+    "background": "rgb(255, 252, 249)",
+    "color": "rgb(48, 35, 38)"
+  },
+  {
+    "width": 390,
+    "colorScheme": "light",
+    "name": "artist",
+    "overflow": false,
+    "background": "rgb(255, 252, 249)",
+    "color": "rgb(48, 35, 38)"
+  },
+  {
+    "width": 390,
+    "colorScheme": "light",
+    "name": "community",
+    "overflow": false,
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(48, 35, 38)"
+  },
+  {
+    "width": 390,
+    "colorScheme": "dark",
+    "name": "homepage",
+    "overflow": false,
+    "background": "rgb(32, 29, 36)",
+    "color": "rgb(247, 237, 228)"
+  },
+  {
+    "width": 390,
+    "colorScheme": "dark",
+    "name": "directory",
+    "overflow": false,
+    "background": "rgb(32, 29, 36)",
+    "color": "rgb(247, 237, 228)"
+  },
+  {
+    "width": 390,
+    "colorScheme": "dark",
+    "name": "shops",
+    "overflow": false,
+    "background": "rgb(32, 29, 36)",
+    "color": "rgb(247, 237, 228)"
+  },
+  {
+    "width": 390,
+    "colorScheme": "dark",
+    "name": "artist",
+    "overflow": false,
+    "background": "rgb(32, 29, 36)",
+    "color": "rgb(247, 237, 228)"
+  },
+  {
+    "width": 390,
+    "colorScheme": "dark",
+    "name": "community",
+    "overflow": false,
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(247, 237, 228)"
+  }
+]

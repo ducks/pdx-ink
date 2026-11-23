@@ -1,0 +1,25 @@
+{
+  "id": 5,
+  "title": "Welcome to PDX Tattooer Directory! :wave:",
+  "slug": "welcome-to-pdx-tattooer-directory",
+  "category_id": 4,
+  "tags": [],
+  "posts_count": 1,
+  "has_accepted_answer": false,
+  "posts": [
+    {
+      "id": 6,
+      "post_number": 1,
+      "username": "system",
+      "created_at": "2026-08-26T18:39:28.163Z",
+      "raw": "We are so glad you joined us.\n\n\n\nHere are some things you can do to get started:\n\n:speaking_head: **Introduce yourself** by adding your picture and information about yourself and your interests to [your profile](/my/preferences/account). What is one thing you’d like to be asked about?\n\n:open_book: **Get to know the community** by [browsing discussions](/latest) that are already happening here. When you find a post interesting, informative, or entertaining, use the :heart: to show your appreciation or support!\n\n:handshake: **Contribute** by commenting, sharing your own perspective, asking questions, or offering feedback in the discussion. Before replying or starting new topics, please review the [Community Guidelines](/faq).\n\n> If you need help or have a suggestion, feel free to ask in #site-feedback or [contact the admins](/about).",
+      "accepted_answer": false,
+      "topic_accepted_answer": null
+    }
+  ],
+  "meta": {
+    "start_post": 1,
+    "returned": 1,
+    "has_more": false
+  }
+}

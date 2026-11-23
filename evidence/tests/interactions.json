@@ -1,0 +1,20 @@
+[
+  {
+    "device": "desktop",
+    "unread": {
+      "label": "you have 1 unread post in this topic",
+      "color": "rgb(245, 240, 228)",
+      "background": "rgb(141, 49, 62)"
+    },
+    "published_and_reloaded": true
+  },
+  {
+    "device": "mobile",
+    "unread": {
+      "label": "you have 2 unread posts in this topic",
+      "color": "rgb(245, 240, 228)",
+      "background": "rgb(141, 49, 62)"
+    },
+    "published_and_reloaded": true
+  }
+]

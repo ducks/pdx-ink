@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PDX Ink / Before and after</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f5f0e4;color:#242520;font:16px/1.5 Arial,sans-serif}main{max-width:1600px;margin:auto;padding:32px}h1{font:700 clamp(40px,5vw,72px)/1 Arial,Helvetica,sans-serif;letter-spacing:-.04em;margin:12px 0}a{color:#8d313e}p{max-width:850px;color:#51524b}.eyebrow{font-size:11px;font-weight:bold;letter-spacing:.15em;color:#8d313e}.controls{display:flex;gap:20px;flex-wrap:wrap;padding:22px 0;margin-top:24px;border-block:1px solid #aaa}label{display:grid;gap:7px;font-size:12px;font-weight:bold}select{font:inherit;background:#fffdf7;color:#242520;padding:10px;border:1px solid #777;min-width:160px}:focus-visible{outline:3px solid #8d313e;outline-offset:4px}.comparison{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:24px}figure{margin:0;min-width:0}figcaption{display:flex;justify-content:space-between;gap:10px;font-weight:bold;font-size:13px;margin-bottom:12px}.frame{background:#e7e3d9;border:1px solid #bbb;overflow:hidden}.frame img{display:block;width:100%;height:auto}.mobile .frame{max-width:390px;margin:auto}.note{font-size:12px}footer{margin-top:32px;border-top:1px solid #aaa;padding-top:20px}@media(max-width:760px){main{padding:20px}.comparison{grid-template-columns:1fr}}
+</style>
+<main>
+<div class="eyebrow">PDX TATTOOER DIRECTORY / THEME DEMONSTRATION</div>
+<h1>Same people.<br>A different sense of place.</h1>
+<p>Real Discourse, with the production site's five tattooers, Heart Eyes Tattoo, and welcome topic. Both sides use the same staged database and viewport. Both include the directory layout update; the change between these captures is PDX Ink and its editorial component.</p>
+<div class="controls">
+<label>Page<select id="surface"><option value="homepage">Directory homepage</option><option value="topic">Welcome topic</option><option value="community">Community / Latest</option><option value="artist">Artist profile</option><option value="shop">Shop profile</option><option value="search">Search results</option><option value="categories">Categories</option></select></label>
+<label>Viewport<select id="device"><option value="desktop">Desktop / 1440 px</option><option value="mobile">Mobile / 390 px</option></select></label>
+<label>Color mode<select id="scheme"><option value="light">Light / PDX Flash</option><option value="dark">Dark / PDX After Hours</option></select></label>
+<label>Capture<select id="length"><option value="-viewport">First viewport</option><option value="">Full page</option></select></label>
+</div>
+<div class="comparison" id="comparison">
+<figure><figcaption>Before / Foundation <a id="before-link" href="before/desktop-homepage.png">Open capture</a></figcaption><div class="frame"><img id="before" src="before/desktop-homepage-viewport.png" alt="Directory homepage on Foundation before applying PDX Ink"></div></figure>
+<figure><figcaption>After / PDX Ink <a id="after-link" href="after/desktop-homepage.png">Open capture</a></figcaption><div class="frame"><img id="after" src="after/desktop-homepage-viewport.png" alt="The same directory homepage after applying PDX Ink"></div></figure>
+</div>
+<footer><p class="note">Snapshot: September 10, 2026. Theme and captures: September 11, 2026. Discourse 2026.9.0-latest, commit 768a4ed1. Screenshots are direct browser captures, with no fabricated content or image compositing. Development tools are disabled through Discourse's preference in both captures.</p><p><a href="../README.md">Installation</a> · <a href="../docs/VERIFICATION.md">Verification</a> · <a href="../docs/PROVENANCE.md">Provenance</a></p></footer>
+</main>
+<script>
+const surface=document.querySelector('#surface'),device=document.querySelector('#device'),length=document.querySelector('#length'),scheme=document.querySelector('#scheme');
+function update(){for(const phase of ['before','after']){const filename=`${device.value}-${surface.value}${length.value}.png`,directory=phase+(scheme.value==='dark'?'-dark':'');document.getElementById(phase).src=`${directory}/${filename}`;document.getElementById(`${phase}-link`).href=`${directory}/${filename}`;document.getElementById(phase).alt=`${surface.selectedOptions[0].text} ${phase} applying PDX Ink, ${device.selectedOptions[0].text}`;}document.getElementById('comparison').classList.toggle('mobile',device.value==='mobile');}
+for(const control of [surface,device,length,scheme])control.addEventListener('change',update);
+</script>
+</html>

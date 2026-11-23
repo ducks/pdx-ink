@@ -1,0 +1,337 @@
+diff --git a/app/helpers/discourse_directory/directory_helper.rb b/app/helpers/discourse_directory/directory_helper.rb
+index b0d523a..c363334 100644
+--- a/app/helpers/discourse_directory/directory_helper.rb
++++ b/app/helpers/discourse_directory/directory_helper.rb
+@@ -33,6 +33,12 @@ module DiscourseDirectory
+       PrettyText.excerpt(record.bio_cooked.to_s, length)
+     end
+ 
++    def directory_person_initials(name)
++      words = name.split
++      words = [words.first, words.last] if words.size > 1
++      words.map { |word| word.first.upcase }.join
++    end
++
+     def directory_geocoding_status(shop)
+       status =
+         if shop.geocoding_error.present?
+diff --git a/app/views/discourse_directory/directory/_card.html.erb b/app/views/discourse_directory/directory/_card.html.erb
+index 7b4e349..a98a6c9 100644
+--- a/app/views/discourse_directory/directory/_card.html.erb
++++ b/app/views/discourse_directory/directory/_card.html.erb
+@@ -4,7 +4,7 @@
+       <img class="directory-card__image" src="<%= directory_image_url(record) %>" alt="<%= record.name %>" loading="lazy">
+     <% else %>
+       <div class="directory-card__placeholder" aria-hidden="true">
+-        <%= record.name.first.upcase %>
++        <%= kind == "people" ? directory_person_initials(record.name) : record.name.first.upcase %>
+       </div>
+     <% end %>
+ 
+@@ -13,10 +13,13 @@
+         <%= kind == "people" ? directory_entry_label : t("discourse_directory.shop") %>
+       </p>
+       <h2 class="directory-card__title"><%= record.name %></h2>
++      <% neighborhoods = kind == "people" ? record.all_neighborhoods.map(&:name) : [record.neighborhood&.name].compact %>
++      <% if neighborhoods.present? %>
++        <p class="directory-card__location"><%= neighborhoods.join(" · ") %></p>
++      <% end %>
+       <p class="directory-card__excerpt"><%= directory_excerpt(record) %></p>
+ 
+       <% labels = kind == "people" ? record.specializations.map(&:name) : [] %>
+-      <% labels += kind == "people" ? record.all_neighborhoods.map(&:name) : [record.neighborhood&.name].compact %>
+       <% if labels.present? %>
+         <ul class="directory-tags">
+           <% labels.each do |label| %>
+@@ -24,6 +27,7 @@
+           <% end %>
+         </ul>
+       <% end %>
++      <span class="directory-card__more"><%= t("discourse_directory.view_profile") %> <span aria-hidden="true">↗</span></span>
+     </div>
+   </a>
+ </article>
+diff --git a/app/views/discourse_directory/directory/index.html.erb b/app/views/discourse_directory/directory/index.html.erb
+index feeaf6f..2a46195 100644
+--- a/app/views/discourse_directory/directory/index.html.erb
++++ b/app/views/discourse_directory/directory/index.html.erb
+@@ -14,107 +14,121 @@
+     <% end %>
+   </header>
+ 
+-  <nav class="directory-kind-nav" aria-label="<%= t("discourse_directory.directory_sections") %>">
+-    <a class="directory-kind-nav__link <%= "directory-kind-nav__link--active" if @kind == "people" %>"
+-       href="<%= directory_root_path(directory_filter_params(kind: "people", specialization: nil, page: nil)) %>">
+-      <%= directory_entries_label.titleize %>
+-    </a>
+-    <a class="directory-kind-nav__link <%= "directory-kind-nav__link--active" if @kind == "shops" %>"
+-       href="<%= directory_root_path(directory_filter_params(kind: "shops", specialization: nil, page: nil)) %>">
+-      <%= t("discourse_directory.shops") %>
+-    </a>
+-  </nav>
++  <div class="directory-toolbar">
++    <nav class="directory-kind-nav" aria-label="<%= t("discourse_directory.directory_sections") %>">
++      <a class="directory-kind-nav__link <%= "directory-kind-nav__link--active" if @kind == "people" %>"
++         href="<%= directory_root_path(directory_filter_params(kind: "people", specialization: nil, page: nil)) %>"
++         <% if @kind == "people" %>aria-current="page"<% end %>>
++        <%= directory_entries_label.titleize %>
++      </a>
++      <a class="directory-kind-nav__link <%= "directory-kind-nav__link--active" if @kind == "shops" %>"
++         href="<%= directory_root_path(directory_filter_params(kind: "shops", specialization: nil, page: nil)) %>"
++         <% if @kind == "shops" %>aria-current="page"<% end %>>
++        <%= t("discourse_directory.shops") %>
++      </a>
++    </nav>
++    <nav class="directory-view-toggle" aria-label="<%= t("discourse_directory.view") %>">
++      <% %w[list map].each do |view| %>
++        <a class="btn <%= "btn-primary" if @view == view %>"
++           data-directory-view="<%= view %>"
++           <% if @view == view %>aria-current="page"<% end %>
++           href="<%= directory_root_path(directory_filter_params(view: view)) %>"><%= t("discourse_directory.#{view}") %></a>
++      <% end %>
++    </nav>
++  </div>
+ 
+-  <form class="directory-filters form-vertical" method="get" action="<%= directory_root_path %>">
+-    <input type="hidden" name="kind" value="<%= @kind %>">
+-    <input type="hidden" name="view" value="<%= @view %>">
+-    <div class="control-group directory-filters__field">
+-      <label class="control-label" for="directory-search"><%= t("discourse_directory.search") %></label>
+-      <div class="controls">
+-        <input id="directory-search" type="search" name="q" value="<%= params[:q] %>">
+-      </div>
+-    </div>
++  <div class="directory-browser">
++    <aside class="directory-filter-panel" aria-labelledby="directory-filter-title">
++      <h2 id="directory-filter-title"><%= t("discourse_directory.filters") %></h2>
+ 
+-    <% if @kind == "people" && @specializations.present? %>
+-      <div class="control-group directory-filters__field">
+-        <label class="control-label" for="directory-specialization"><%= t("discourse_directory.specialization") %></label>
+-        <div class="controls">
+-          <select id="directory-specialization" class="d-select" name="specialization">
+-          <option value=""><%= t("discourse_directory.all_specializations") %></option>
+-          <% @specializations.each do |specialization| %>
+-            <option value="<%= specialization.slug %>" <%= "selected" if params[:specialization] == specialization.slug %>>
+-              <%= specialization.name %>
+-            </option>
+-          <% end %>
+-          </select>
++      <form class="directory-filters form-vertical" method="get" action="<%= directory_root_path %>">
++        <input type="hidden" name="kind" value="<%= @kind %>">
++        <input type="hidden" name="view" value="<%= @view %>">
++        <div class="control-group directory-filters__field">
++          <label class="control-label" for="directory-search"><%= t("discourse_directory.search") %></label>
++          <div class="controls">
++            <input id="directory-search" type="search" name="q" value="<%= params[:q] %>">
++          </div>
+         </div>
+-      </div>
+-    <% end %>
+ 
+-    <% if @neighborhoods.present? %>
+-      <div class="control-group directory-filters__field">
+-        <label class="control-label" for="directory-neighborhood"><%= t("discourse_directory.neighborhood") %></label>
+-        <div class="controls">
+-          <select id="directory-neighborhood" class="d-select" name="neighborhood">
+-          <option value=""><%= t("discourse_directory.all_neighborhoods") %></option>
+-          <% @neighborhoods.each do |neighborhood| %>
+-            <option value="<%= neighborhood.slug %>" <%= "selected" if params[:neighborhood] == neighborhood.slug %>>
+-              <%= neighborhood.name %>
+-            </option>
++        <% if @kind == "people" && @specializations.present? %>
++          <div class="control-group directory-filters__field">
++            <label class="control-label" for="directory-specialization"><%= t("discourse_directory.specialization") %></label>
++            <div class="controls">
++              <select id="directory-specialization" class="d-select" name="specialization">
++              <option value=""><%= t("discourse_directory.all_specializations") %></option>
++              <% @specializations.each do |specialization| %>
++                <option value="<%= specialization.slug %>" <%= "selected" if params[:specialization] == specialization.slug %>>
++                  <%= specialization.name %>
++                </option>
++              <% end %>
++              </select>
++            </div>
++          </div>
++        <% end %>
++
++        <% if @neighborhoods.present? %>
++          <div class="control-group directory-filters__field">
++            <label class="control-label" for="directory-neighborhood"><%= t("discourse_directory.neighborhood") %></label>
++            <div class="controls">
++              <select id="directory-neighborhood" class="d-select" name="neighborhood">
++              <option value=""><%= t("discourse_directory.all_neighborhoods") %></option>
++              <% @neighborhoods.each do |neighborhood| %>
++                <option value="<%= neighborhood.slug %>" <%= "selected" if params[:neighborhood] == neighborhood.slug %>>
++                  <%= neighborhood.name %>
++                </option>
++              <% end %>
++              </select>
++            </div>
++          </div>
++        <% end %>
++
++        <div class="controls directory-filters__actions">
++          <button class="btn btn-primary" type="submit"><%= t("discourse_directory.filter") %></button>
++          <% if params[:q].present? || params[:specialization].present? || params[:neighborhood].present? %>
++            <a class="btn btn-flat" href="<%= directory_root_path(kind: @kind, view: @view) %>"><%= t("discourse_directory.clear_filters") %></a>
+           <% end %>
+-          </select>
+         </div>
++      </form>
++    </aside>
++    <div class="directory-content">
++      <div class="directory-results-header">
++        <h2><%= @kind == "people" ? directory_entries_label.titleize : t("discourse_directory.shops") %></h2>
++        <p class="directory-results__count"><%= t("discourse_directory.results", count: @query.total_count) %></p>
+       </div>
+-    <% end %>
+-
+-    <div class="controls directory-filters__actions">
+-      <button class="btn btn-primary" type="submit"><%= t("discourse_directory.filter") %></button>
+-      <% if params[:q].present? || params[:specialization].present? || params[:neighborhood].present? %>
+-        <a class="btn btn-flat" href="<%= directory_root_path(kind: @kind, view: @view) %>"><%= t("discourse_directory.clear_filters") %></a>
+-      <% end %>
+-    </div>
+-  </form>
+-
+-  <nav class="directory-view-toggle" aria-label="<%= t("discourse_directory.view") %>">
+-    <% %w[list map].each do |view| %>
+-      <a class="btn <%= "btn-primary" if @view == view %>"
+-         data-directory-view="<%= view %>"
+-         <% if @view == view %>aria-current="page"<% end %>
+-         href="<%= directory_root_path(directory_filter_params(view: view)) %>"><%= t("discourse_directory.#{view}") %></a>
+-    <% end %>
+-  </nav>
+ 
+-  <% if @view == "list" %>
+-    <div data-directory-list>
+-      <section class="directory-results">
+-        <p class="directory-results__count"><%= t("discourse_directory.results", count: @query.total_count) %></p>
+-        <% if @records.present? %>
+-          <div class="directory-grid">
+-            <% @records.each do |record| %>
+-              <%= render partial: "card", locals: { record:, kind: @kind } %>
++      <% if @view == "list" %>
++        <div data-directory-list>
++          <section class="directory-results">
++            <% if @records.present? %>
++              <div class="directory-grid">
++                <% @records.each do |record| %>
++                  <%= render partial: "card", locals: { record:, kind: @kind } %>
++                <% end %>
++              </div>
++            <% else %>
++              <p class="directory-empty"><%= t("discourse_directory.empty") %></p>
+             <% end %>
+-          </div>
+-        <% else %>
+-          <p class="directory-empty"><%= t("discourse_directory.empty") %></p>
+-        <% end %>
+-      </section>
++          </section>
+ 
+-      <% if @query.previous_page? || @query.next_page? %>
+-        <nav class="directory-pagination" aria-label="<%= t("discourse_directory.pagination") %>">
+-          <% if @query.previous_page? %>
+-            <a href="<%= directory_root_path(directory_filter_params(page: @query.page - 1)) %>"><%= t("discourse_directory.previous_page") %></a>
+-          <% end %>
+-          <% if @query.next_page? %>
+-            <a href="<%= directory_root_path(directory_filter_params(page: @query.page + 1)) %>"><%= t("discourse_directory.next_page") %></a>
++          <% if @query.previous_page? || @query.next_page? %>
++            <nav class="directory-pagination" aria-label="<%= t("discourse_directory.pagination") %>">
++              <% if @query.previous_page? %>
++                <a href="<%= directory_root_path(directory_filter_params(page: @query.page - 1)) %>"><%= t("discourse_directory.previous_page") %></a>
++              <% end %>
++              <% if @query.next_page? %>
++                <a href="<%= directory_root_path(directory_filter_params(page: @query.page + 1)) %>"><%= t("discourse_directory.next_page") %></a>
++              <% end %>
++            </nav>
+           <% end %>
+-        </nav>
++        </div>
++      <% elsif @map_pins.present? %>
++        <%= render partial: "map", locals: { pins: @map_pins } %>
++      <% else %>
++        <p class="directory-empty"><%= t("discourse_directory.map_empty") %></p>
+       <% end %>
+     </div>
+-  <% elsif @map_pins.present? %>
+-    <%= render partial: "map", locals: { pins: @map_pins } %>
+-  <% else %>
+-    <p class="directory-empty"><%= t("discourse_directory.map_empty") %></p>
+-  <% end %>
++  </div>
+ 
+   <%= render "footer" %>
+ </main>
+diff --git a/config/locales/server.en.yml b/config/locales/server.en.yml
+index ec52bf7..719fed3 100644
+--- a/config/locales/server.en.yml
++++ b/config/locales/server.en.yml
+@@ -39,6 +39,8 @@ en:
+     edit_shop: "Edit shop"
+     empty: "No directory entries match these filters."
+     filter: "Filter"
++    filters: "Refine your search"
++    view_profile: "View profile"
+     inactive: "Inactive"
+     instagram: "Instagram"
+     instagram_handle: "Instagram handle"
+diff --git a/spec/requests/discourse_directory/directory_controller_spec.rb b/spec/requests/discourse_directory/directory_controller_spec.rb
+index be84dbc..4928ade 100644
+--- a/spec/requests/discourse_directory/directory_controller_spec.rb
++++ b/spec/requests/discourse_directory/directory_controller_spec.rb
+@@ -94,6 +94,52 @@ RSpec.describe DiscourseDirectory::DirectoryController do
+     expect(grid).not_to include(person.name)
+   end
+ 
++  it "uses first and last initials for people without an image" do
++    DiscourseDirectory::Entry.create!(name: "Mary Jane Watson")
++    DiscourseDirectory::Entry.create!(name: "Kale")
++
++    get "/directory"
++
++    initials =
++      Nokogiri
++        .HTML5(response.body)
++        .css(".directory-card")
++        .to_h do |card|
++          [
++            card.at_css(".directory-card__title").text,
++            card.at_css(".directory-card__placeholder")&.text&.strip,
++          ]
++        end
++    expect(initials).to eq(
++      "River Stone" => nil,
++      "Sam North" => "SN",
++      "Mary Jane Watson" => "MW",
++      "Kale" => "K",
++    )
++  end
++
++  it "shows direct and shop neighborhoods separately from specialization tags" do
++    get "/directory"
++
++    document = Nokogiri.HTML5(response.body)
++    cards =
++      document.css(".directory-card").index_by { |card| card.at_css(".directory-card__title").text }
++    expect(cards[person.name].at_css(".directory-card__location").text).to eq("Mississippi")
++    expect(cards[other_person.name].at_css(".directory-card__location").text).to eq("Sellwood")
++    expect(cards[person.name].css(".directory-tags__item").map(&:text)).to eq(["Fine line"])
++    expect(document.at_css(".directory-kind-nav [aria-current='page']")["href"]).to include(
++      "kind=people",
++    )
++
++    get "/directory", params: { kind: "shops" }
++
++    document = Nokogiri.HTML5(response.body)
++    expect(document.at_css(".directory-card__location").text).to eq("Mississippi")
++    expect(document.at_css(".directory-kind-nav [aria-current='page']")["href"]).to include(
++      "kind=shops",
++    )
++  end
++
+   it "filters people by specialization" do
+     other_shop =
+       DiscourseDirectory::Shop.create!(

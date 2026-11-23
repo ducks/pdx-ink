@@ -1,0 +1,41 @@
+editorial_enabled:
+  default: true
+  description: "Show the editorial introduction on Latest. Category, tag, unread and search views stay focused on their results."
+eyebrow:
+  default: "PORTLAND, OREGON / A COMMUNITY IN INK"
+headline:
+  default: "Good work.\nGood people."
+introduction:
+  default: "Find your tattooer. Get to know the craft. A gathering place for the people who make Portland's tattoo culture their own."
+directory_label:
+  default: "Find a tattooer"
+directory_path:
+  default: "/directory"
+  description: "Site-relative directory path. On a subfolder installation this is resolved against Discourse's base path."
+curation_label:
+  default: "SELECTED BY THE EDITORS"
+curation_note:
+  default: "A few things worth spending time with. Hand-picked by the directory team."
+features:
+  type: objects
+  default: []
+  description: "Optional editorial links, in display order. Use existing public topics or directory records; these are staff selections, never automated rankings. Keep at most three. Empty means no feature section. Images need permission and useful alt text. Links must be site-relative."
+  schema:
+    name: feature
+    properties:
+      title:
+        type: string
+        required: true
+      path:
+        type: string
+        required: true
+      kicker:
+        type: string
+      description:
+        type: string
+      image:
+        type: string
+      image_alt:
+        type: string
+      credit:
+        type: string
